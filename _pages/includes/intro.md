@@ -1,11 +1,8 @@
 # <span data-lang="en">👨🏻‍🎓 Biography</span><span data-lang="zh" hidden>👨🏻‍🎓 个人简介</span>
 
 <p data-lang="en">
-  👋Hi, I am I am an assistant researcher at the School of Artificial Intelligence.
-My research focuses on <strong>flexible-structure robotic systems<strong> (i.e., pneumatic
-artificial muscle-actuated robots and flexible-joint robots), including hysteresis modeling, motion control, and learning-based compliant interaction
-
-  My research focuses on <span style="color: red;">autonomous safe emergency landing for UAVs</span>, as well as control and optimization of <span style="color: red;">underactuated mechatronic/robotic systems</span>, with equal emphasis on theory and application. 
+  👋Hi, I am I am an assistant researcher at the School of Artificial Intelligence. My research focuses on <span style="color: red;">flexible-structure robotic systems</span>,  (i.e., pneumatic
+artificial muscle-actuated robots and flexible-joint robots), including hysteresis modeling, motion control, and learning-based compliant interaction<span style="color: red;">underactuated mechatronic/robotic systems</span>, with equal emphasis on theory and application. 
   Previously, I received the Ph.D. degree in Artificial Intelligence from 
   <a href="https://www.nankai.edu.cn/main.htm">Nankai University</a>, 
   Tianjin, China, in June 2026, under the supervision of Prof. 
