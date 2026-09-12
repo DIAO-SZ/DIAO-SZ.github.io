@@ -1,32 +1,49 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+on:
+  page_build:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        export remote_repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data" || echo "No changes to commit"
-        git branch -M google-scholar-stats
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install requirements
+        run: |
+          cd ./google_scholar_crawler
+          pip3 install -r requirements.txt
+
+      - name: Get citation data
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: |
+          cd ./google_scholar_crawler
+          python3 main.py
+
+          cd ./results
+
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          export remote_repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+
+          git add *.json
+          git commit -m "Updated Citation Data" || echo "No changes to commit"
+
+          git branch -M google-scholar-stats
+          git push "${remote_repo}" HEAD:google-scholar-stats --force
