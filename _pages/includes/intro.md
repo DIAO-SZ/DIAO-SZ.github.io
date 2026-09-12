@@ -1,13 +1,12 @@
 # <span data-lang="en">👨🏻‍🎓 Biography</span><span data-lang="zh" hidden>👨🏻‍🎓 个人简介</span>
 
 <p data-lang="en">
-  I am a Postdoctoral Fellow in
-  <a href="https://www.polyu.edu.hk/rclae/">Research Centre for Low Altitude Economy</a>,
-  <a href="https://www.polyu.edu.hk/aae/">Department of Aeronautical and Aviation Engineering</a>,
-  <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a>, working with Prof.
-  <a href="https://scholar.google.com/citations?user=UfIb9GkAAAAJ">Wen-Hua Chen</a>.
+  👋Hi, I am I am an assistant researcher at the School of Artificial Intelligence.
+My research focuses on <strong>flexible-structure robotic systems<strong> (i.e., pneumatic
+artificial muscle-actuated robots and flexible-joint robots), including hysteresis modeling, motion control, and learning-based compliant interaction
+
   My research focuses on <span style="color: red;">autonomous safe emergency landing for UAVs</span>, as well as control and optimization of <span style="color: red;">underactuated mechatronic/robotic systems</span>, with equal emphasis on theory and application. 
-  Previously, I received the Ph.D. degree in Artificial Intelligence (with honors) from 
+  Previously, I received the Ph.D. degree in Artificial Intelligence from 
   <a href="https://www.nankai.edu.cn/main.htm">Nankai University</a>, 
   Tianjin, China, in June 2026, under the supervision of Prof. 
   <a href="https://ai.nankai.edu.cn/info/1033/5214.htm">Ning Sun</a> 
