@@ -74,8 +74,7 @@ google_maps:
     title: 
   zoom: 
   language: en
-#  placeholder: "Set your Google Maps API key in _config.yml to display the location map."
-
+#  placeholder: 
 
 # Reading Files
 include:
