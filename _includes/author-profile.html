@@ -27,11 +27,6 @@
       {% if site.description or site.description_zh %}
         <li>
           <div style="white-space: normal; margin-bottom: 1em;">
-            {% if site.description %}<span data-lang="en">{{ site.description }}</span>{% endif %}
-            {% if site.description_zh %}<span data-lang="zh"{% if site.description %} hidden{% endif %}>{{ site.description_zh }}</span>{% endif %}
-          </div>
-        </li>
-      {% endif %}
       {% if author.location or author.location_zh %}
         <li class="author__item author__item--location">
           <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
