@@ -20,19 +20,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Install requirements
         run: |
+          python -m pip install --upgrade pip
           cd ./google_scholar_crawler
-          pip3 install -r requirements.txt
+          pip install -r requirements.txt
+          pip install "bibtexparser==1.4.3"
 
       - name: Get citation data
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
           cd ./google_scholar_crawler
-          python3 main.py
+          python main.py
 
           cd ./results
 
