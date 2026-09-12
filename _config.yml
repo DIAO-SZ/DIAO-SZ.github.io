@@ -64,15 +64,6 @@ author:
   youtube          :
   wikipedia        :
 
-google_maps:
-  location:
-    lat: 
-    lng: 
-    title: 
-  zoom: 
-  language: en
-#  placeholder: 
-
 # Reading Files
 include:
   - .htaccess
