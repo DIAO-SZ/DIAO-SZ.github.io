@@ -1,19 +1,24 @@
 # <span data-lang="en">👨🏻‍🎓 Biography</span><span data-lang="zh" hidden>👨🏻‍🎓 个人简介</span>
 
 <p data-lang="en">
-  👋Hi, I am I am an assistant researcher at the School of Artificial Intelligence. My research focuses on <span style="color: red;">flexible-structure robotic systems</span>,  (i.e., pneumatic
+  👋Hi, I am an assistant researcher at the School of Artificial Intelligence. My research focuses on <span style="color: red;">flexible-structure robotic systems</span>,  (i.e., pneumatic
 artificial muscle-actuated robots and flexible-joint robots), including hysteresis modeling, motion control, and learning-based compliant interaction. 
  Previously, I received the Ph.D. degree in Artificial Intelligence from 
 <a href="https://www.nankai.edu.cn/main.htm">Nankai University</a>, 
   Tianjin, China, in June 2026, under the supervision of Prof. 
   <a href="https://ai.nankai.edu.cn/info/1033/5214.htm">Ning Sun</a> 
-  at the <a href="https://url.nankai.edu.cn/">Underactuated Robots Lab</a>. 
-  I received the B.Eng. in Automation (with honors) from 
-  <a href="https://www.jlu.edu.cn/">Jilin University</a>, 
-  Changchun, China, in June 2021.
+  at the <a href="https://url.nankai.edu.cn/">Underactuated Robots Lab</a>.
 </p>
 <p data-lang="zh" hidden>
-  目前，我在<a href="https://www.polyu.edu.hk/rclae/">香港理工大学低空经济研究中心</a>、<a href="https://www.polyu.edu.hk/aae/">航空及民航工程学系</a>担任博士后研究员，合作导师为<a href="https://scholar.google.com/citations?user=UfIb9GkAAAAJ">陈文华</a>教授。我的研究聚焦于<span style="color: red;">无人机自主应急安全降落</span>，以及<span style="color: red;">欠驱动机电/机器人系统</span>的控制、优化问题，理论与应用并重。此前，我于2026年6月在<a href="https://www.nankai.edu.cn/main.htm">南开大学</a>获得人工智能专业博士学位，师从<a href="https://ai.nankai.edu.cn/info/1033/5214.htm">孙宁</a>教授，并在国内领先的<a href="https://url.nankai.edu.cn/">欠驱动机器人实验室</a>开展研究工作。此外，我于2021年6月在<a href="https://www.jlu.edu.cn/">吉林大学</a>获得自动化专业学士学位。
+我目前是南开大学人工智能学院的助理研究员，主要围绕
+<span style="color: red;">柔性结构机器人系统</span>
+（包括气动人工肌肉机器人和柔性关节机器人）
+开展相关研究，涉及迟滞建模、运动控制和基于学习的柔顺交互。
+
+此前，我于2026年6月在
+<a href="https://www.nankai.edu.cn/main.htm">南开大学</a>
+获得人工智能专业博士学位，师从
+<a href="https://ai.nankai.edu.cn/info/1033/5214.htm">孙宁教授</a>。
 </p>
 
 <p data-lang="en">
