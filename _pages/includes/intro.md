@@ -16,16 +16,9 @@ I received the Ph.D. degree in Artificial Intelligence from
 </p>
 
 <p data-lang="en">
-During my Ph.D., I was awarded the inaugural National Natural Science Foundation of China (NSFC)
-Youth Student Basic Research Project (for Ph.D. Students) and the inaugural Young Elite Scientists Sponsorship Program (for Ph.D. Students) by China Association for Science and Technology (CAST).
-
-
-
- I have been awarded the inaugural <strong>National Natural Science Foundation of China (NSFC）Youth Student Basic Research Project </strong> (for Ph.D. students),  and the inaugural <strong>Young Elite Scientists Sponsorship Program<strong> (for Ph.D. Students) by China Association for Science and Technology (CAST). My research contributions have resulted in <strong>10+ publications</strong>
-  <a href='https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ'>
-    <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/meng-zhai/meng-zhai.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citations">
+I have been awarded the inaugural <strong>National Natural Science Foundation of China (NSFC）Youth Student Basic Research Project </strong> (for Ph.D. students),  and the inaugural <strong>Young Elite Scientists Sponsorship Program<strong> (for Ph.D. Students) by China Association for Science and Technology (CAST). My research contributions have resulted in <strong>10+ publications</strong> <a href='https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/meng-zhai/meng-zhai.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citations">
   </a>
-  in top journals, including <strong>IEEE Transactions</strong>. These achievements have been recognized with <strong>5 Best Paper/Best Poster awards</strong> at conferences, the Autonomous Robotic Technology Seminar (ARTS) Scholarship Nomination Award (8 candidates worldwide each year), the National Scholarship for Doctoral Students, the BYD Scholarship, and other awards/honors. I have also contributed to the research community as a reviewer for IEEE TIE, IEEE  TSMCS, IEEE TCyber, IEEE RAL, IEEE Internet of Things Journal, Nonlinear Dynamics, ISA Transactions, ICRA, ACC, CDC, etc.
+ in top journals, including <strong>IEEE Transactions</strong>. I have also contributed to the research community as a reviewer for IEEE TIE, IEEE  TSMCS, IEEE TCyber, IEEE RAL, IEEE Internet of Things Journal, Nonlinear Dynamics, ISA Transactions, ICRA, ACC, CDC, etc.
 </p>
 <p data-lang="zh" hidden>
   我作为<strong>项目负责人</strong>主持获批了<strong><span style="color: red;">国家自然科学基金</span>青年学生基础研究项目<span style="color: red;">（博士研究生）</span></strong>。目前，我已在包括 <strong>IEEE Transactions</strong> 在内的高水平期刊发表<strong>论文10余篇
