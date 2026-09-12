@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Meng Zhai"
-description              : "Focusing on improving yourself is usually the safest way to be happy."
-description_zh           : "专注于提升自己通常是最安全的快乐方式。"
-repository               : "meng-zhai/meng-zhai.github.io"
+title                    : "Shuzhen Diao"
+description              : 
+description_zh           : 
+repository               : "DIAO-SZ/DIAO-SZ.github.io"
 google_scholar_stats_use_cdn : true
 lang                     : en
 
 # google analytics
-google_analytics_id      : # "https://analytics.google.com/analytics/e2ban1wAAAAJ"
+google_analytics_id      : # "https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ"
 
 # Google Maps
 google_maps_api_key      : # "AIzaSyAifVZM7XgfNimiR_YlTaTmweRs72RgCmA"
@@ -26,18 +26,18 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Meng Zhai"
-  name_zh          : "翟猛"
-  avatar           : "/images/avatar.png"
-  bio              : "Postdoctoral Fellow at PolyU"
-  bio_zh           : "博士后研究员 (PolyU)"
-  location         : "Hong Kong"
-  location_zh      : "香港"
-  employer         : "The Hong Kong Polytechnic University"
-  employer_zh      : "香港理工大学"
+  name             : "Shuzhen Diao"
+  name_zh          : "刁淑贞"
+  avatar           : "/images/DSZ.jpg"
+  bio              : "Assistant Researcher"
+  bio_zh           : "助理研究员"
+  location         : "Tianjin"
+  location_zh      : "天津"
+  employer         : "Nankai University"
+  employer_zh      : "南开大学"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=g91ocA8AAAAJ"
-  email            : "tangshi2026@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ"
+  email            : "diaoshuzhen@mail.nankai.edu.cn"
   researchgate     : 
   uri              :
   bitbucket        :
@@ -46,7 +46,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # "meng-zhai"
+  github           : # "DIAO-SZ"
   google_plus      :
   keybase          :
   instagram        :
