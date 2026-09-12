@@ -27,16 +27,13 @@ I received the Ph.D. degree in Artificial Intelligence from
          alt="Google Scholar citations">
   </a>
   in top journals, including <strong>IEEE Transactions</strong>. 
-
- I have also contributed to the research community as a reviewer for IEEE TIE, IEEE TSMCS, IEEE TCyber, IEEE RAL, IEEE Internet of Things Journal, Nonlinear Dynamics, ISA Transactions, ICRA, ACC, CDC, etc.
 </p>
 <p data-lang="zh" hidden>
   我作为<strong>项目负责人</strong>主持获批了<strong><span style="color: red;">国家自然科学基金</span>青年学生基础研究项目<span style="color: red;">（博士研究生）</span></strong>。目前，我已在包括 <strong>IEEE Transactions</strong> 在内的高水平期刊发表<strong>论文10余篇
   <a href='https://scholar.google.com/citations?user=g91ocA8AAAAJ'>
     <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/meng-zhai/meng-zhai.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citations">
   </a>
-  </strong>。相关研究成果获得会议<strong>最佳论文奖/最佳张贴论文奖共5项</strong>，并先后获自主机器人技术研讨会奖学金提名奖（全球每年8名候选人）、博士研究生国家奖学金、比亚迪奖学金及其他奖励与荣誉。此外，我还担任 IEEE TIE、IEEE TSMCS、IEEE TCyber、IEEE RAL、IEEE Internet of Things Journal、Nonlinear Dynamics、ISA Transactions、ICRA、ACC、CDC 等期刊和会议的审稿人。
-</p>
+  </strong></p>
 
 <p data-lang="en">
   I look forward to potential academic discussions and collaborations. Please feel free to contact me at
