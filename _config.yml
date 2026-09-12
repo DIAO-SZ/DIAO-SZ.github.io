@@ -5,20 +5,22 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+
 # Site Settings
 title                    : "Shuzhen Diao"
-description              : 
-description_zh           : 
 repository               : "DIAO-SZ/DIAO-SZ.github.io"
 google_scholar_stats_use_cdn : true
 lang                     : en
 
-# google analytics
-google_analytics_id      : # "https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ"
+
+# Google Analytics
+google_analytics_id      :
 
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
 
 
 # Site Author
@@ -32,10 +34,11 @@ author:
   location_zh      : "天津"
   employer         : "Nankai University"
   employer_zh      : "南开大学"
-  pubmed           : 
+
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ"
   email            : "diaoshuzhen@mail.nankai.edu.cn"
-  researchgate     : 
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -43,26 +46,27 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # "DIAO-SZ"
+  github           : "DIAO-SZ"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : 
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0002-0757-1709"
+  linkedin         :
+  dblp             :
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
+
 
 # Reading Files
 include:
@@ -70,6 +74,7 @@ include:
   - .well-known
   - _pages
   - files
+
 exclude:
   - docs
   - google_scholar_crawler
@@ -97,9 +102,11 @@ exclude:
   - package.json
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -123,6 +130,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+
 # Defaults
 defaults:
   # _pages
@@ -137,12 +145,12 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins
@@ -152,7 +160,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+
+
+# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -162,7 +172,6 @@ whitelist:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
