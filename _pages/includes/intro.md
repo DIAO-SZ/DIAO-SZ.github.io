@@ -1,10 +1,8 @@
 # <span data-lang="en">👨🏻‍🎓 Biography</span><span data-lang="zh" hidden>👨🏻‍🎓 个人简介</span>
 
 <p data-lang="en">
-  👋 Hi, I am currently an Assistant Researcher at the School of Artificial Intelligence, 
-  <a href="https://www.nankai.edu.cn/main.htm">Nankai University</a>. 
-  My research mainly focuses on 
-  <span style="color: red;">flexible-structure robotic systems</span> 
+  👋 Hi, I am currently an Assistant Researcher at the School of Artificial Intelligence, Nankai University. My research mainly focuses on 
+ <span style="color: #6F2C91;">flexible-structure robotic systems</span> 
   (including pneumatic artificial muscle-actuated robots and flexible-joint robots), 
   with particular interests in hysteresis modeling, motion control, and compliant interaction.
 I received the Ph.D. degree in Artificial Intelligence from 
@@ -13,7 +11,7 @@ I received the Ph.D. degree in Artificial Intelligence from
   <a href="https://ai.nankai.edu.cn/info/1033/5214.htm">Ning Sun</a>.
 </p>
 <p data-lang="zh" hidden>
-我目前是南开大学人工智能学院的助理研究员，主要围绕<span style="color: red;">柔性结构机器人系统</span>（包括气动人工肌肉机器人和柔性关节机器人）开展相关研究，涉及迟滞建模、运动控制和柔顺交互三个方面。
+我目前是南开大学人工智能学院的助理研究员，主要围绕 <strong><span style="color: #6F2C91;">柔性结构机器人系统</span><strong>（包括气动人工肌肉机器人和柔性关节机器人）开展相关研究，涉及迟滞建模、运动控制和柔顺交互三个方面。
 
 此前，我于2026年6月在<a href="https://www.nankai.edu.cn/main.htm">南开大学</a>获得人工智能专业博士学位，师从<a href="https://ai.nankai.edu.cn/info/1033/5214.htm">孙宁教授</a>。
 </p>
