@@ -2,9 +2,9 @@
 
 <p data-lang="en">
   👋Hi, I am I am an assistant researcher at the School of Artificial Intelligence. My research focuses on <span style="color: red;">flexible-structure robotic systems</span>,  (i.e., pneumatic
-artificial muscle-actuated robots and flexible-joint robots), including hysteresis modeling, motion control, and learning-based compliant interaction<span style="color: red;">underactuated mechatronic/robotic systems</span>, with equal emphasis on theory and application. 
-  Previously, I received the Ph.D. degree in Artificial Intelligence from 
-  <a href="https://www.nankai.edu.cn/main.htm">Nankai University</a>, 
+artificial muscle-actuated robots and flexible-joint robots), including hysteresis modeling, motion control, and learning-based compliant interaction. 
+ Previously, I received the Ph.D. degree in Artificial Intelligence from 
+<a href="https://www.nankai.edu.cn/main.htm">Nankai University</a>, 
   Tianjin, China, in June 2026, under the supervision of Prof. 
   <a href="https://ai.nankai.edu.cn/info/1033/5214.htm">Ning Sun</a> 
   at the <a href="https://url.nankai.edu.cn/">Underactuated Robots Lab</a>. 
