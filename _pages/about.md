@@ -109,15 +109,17 @@ redirect_from:
 <span class='anchor' id='-awards'></span>
 # <span data-lang="en">🏆 Selected Awards/Honors</span><span data-lang="zh" hidden>🏆 代表性荣誉/奖励</span>
 
-- <span data-lang="en">2026, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, The 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (IEEE-AIEA 2026)</span> <span data-lang="zh" hidden>2026年，第七届IEEE人工智能与机电自动化国际学术会议 (IEEE-AIEA 2026) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
+- <span data-lang="en">2025, National Scholarship for Doctoral Students</span>
+  <span data-lang="zh" hidden>2025年，博士研究生国家奖学金</span>
 
-- <span data-lang="en">2025, <strong><span style="color:#f09f00">Excellent Articles</span></strong>, The 1st Conference on Systems Engineering and Electronics</span> <span data-lang="zh" hidden>2025年，首届系统工程与电子技术大会<strong><span style="color:#f09f00">优秀论文</span></strong></span>
+- <span data-lang="en">2025, Outstanding Student of Tianjin Municipality</span>
+  <span data-lang="zh" hidden>2025年，天津市优秀学生</span>
 
-- <span data-lang="en">2025, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, The 2025 International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI 2025)</span> <span data-lang="zh" hidden>2025年，机电一体化、机器人与人工智能学术会议 (MRAI 2025) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
+- <span data-lang="en">2024, Young Elite Scientists Sponsorship Program (for Ph.D. Students) by CAST</span>
+  <span data-lang="zh" hidden>2024年，中国科协青年人才托举工程博士生专项计划</span>
 
-- <span data-lang="en">2025, <strong><span style="color:#f09f00">National Scholarship</span></strong> for Doctoral Students, Nankai University</span> <span data-lang="zh" hidden>2025年，南开大学博士生<strong><span style="color:#f09f00">国家奖学金</span></strong></span>
-
-- <span data-lang="en">2023, <strong><span style="color:#f09f00">Best Poster Paper Award</span></strong>, The 7th Chinese Conference on Swarm Intelligence and Cooperative Control (CCSICC 2023)</span> <span data-lang="zh" hidden>2023年，第七届全国集群智能与协同控制大会 (CCSICC 2023) <strong><span style="color:#f09f00">最佳张贴论文奖</span></strong></span>
+- <span data-lang="en">2023, Outstanding Master's Thesis Award of Shandong Province</span>
+  <span data-lang="zh" hidden>2023年，山东省优秀硕士学位论文</span>
 
 <p class="news-actions">
   <a class="btn" href="{{ '/awards/' | relative_url }}">
