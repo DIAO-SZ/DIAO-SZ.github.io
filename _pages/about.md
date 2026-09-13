@@ -103,7 +103,7 @@ redirect_from:
 
 
 <span class='anchor' id='-patents'></span>
-# <span data-lang="en">📃 Selected Patents</span><span data-lang="zh" hidden>📃 部分专利</span>
+# <span data-lang="en">📜  Selected Patents</span><span data-lang="zh" hidden>📜  部分专利</span>
 
 - <span data-lang="en">A control method and system for a suspended horizontal follow-up system based on equivalent input disturbance, <strong>China Invention Patent</strong>, Application No.: ZL202510590519.8, <strong>granted</strong>.</span>
   <span data-lang="zh" hidden>基于等效输入干扰的悬吊式水平随动系统控制方法及系统，<strong>中国发明专利</strong>，专利号：ZL202510590519.8，<strong>已授权</strong>。</span>
@@ -123,7 +123,7 @@ redirect_from:
 
 
 <span class='anchor' id='-awards'></span>
-# <span data-lang="en">🎖 Selected Awards/Honors</span><span data-lang="zh" hidden>🎖 代表性荣誉/奖励</span>
+# <span data-lang="en">🏆 Selected Awards/Honors</span><span data-lang="zh" hidden>🏆 代表性荣誉/奖励</span>
 
 - <span data-lang="en">2026, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, The 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (IEEE-AIEA 2026)</span> <span data-lang="zh" hidden>2026年，第七届IEEE人工智能与机电自动化国际学术会议 (IEEE-AIEA 2026) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
 - <span data-lang="en">2025, <strong><span style="color:#f09f00">Excellent Articles</span></strong>, The 1st Conference on Systems Engineering and Electronics</span> <span data-lang="zh" hidden>2025年，首届系统工程与电子技术大会<strong><span style="color:#f09f00">优秀论文</span></strong></span>

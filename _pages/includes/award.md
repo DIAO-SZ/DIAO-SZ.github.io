@@ -1,8 +1,8 @@
-# <span data-lang="en">🎖 Honors and Awards</span><span data-lang="zh" hidden>🎖 荣誉奖励</span>
+# <span data-lang="en">🏆 Honors and Awards</span><span data-lang="zh" hidden>🏆 荣誉奖励</span>
 
 <ul class="award-list">
   <li>
-     <span data-lang="en">2026, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, The 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (IEEE-AIEA 2026)</span>
+     <span data-lang="en">2026, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (IEEE-AIEA 2026)</span>
      <span data-lang="zh" hidden>2026年，第七届IEEE人工智能与机电自动化国际学术会议 (IEEE-AIEA 2026) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
   </li>
 
