@@ -35,12 +35,16 @@ I received the Ph.D. degree in Artificial Intelligence from
   </a>
   </strong></p>
 
-<p data-lang="en">
-  I look forward to potential academic discussions and collaborations. Please feel free to contact me at
-  <a href="mailto:tangshi2026@gmail.com">tangshi2026@gmail.com</a>.
+<p data-lang="en"> 
+  If you are interested in my research, or would like to discuss any related questions or ideas, 
+  please feel free to contact me at 
+  <a href="mailto:diaoshuzhen@mail.nankai.edu.cn">diaoshuzhen@mail.nankai.edu.cn</a>. 
+  I look forward to hearing from you 😊
 </p>
 <p data-lang="zh" hidden>
-  我期待未来的学术交流与合作。随时欢迎通过 <a href="mailto:tangshi2026@gmail.com">tangshi2026@gmail.com</a> 与我联系。
+如果你对我的研究感兴趣，或有相关问题和想法希望交流，欢迎随时通过
+<a href="mailto:diaoshuzhen@mail.nankai.edu.cn">diaoshuzhen@mail.nankai.edu.cn</a>
+与我联系😊
 </p>
 
 
