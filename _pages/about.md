@@ -150,7 +150,7 @@ redirect_from:
 
 <p class="news-actions">
   <a class="btn" href="{{ '/services/' | relative_url }}">
-    <span data-lang="en">-- Explore All Services --</span>
+    <span data-lang="en">-- Explore All  Activities --</span>
     <span data-lang="zh" hidden>-- 查看更多学术活动 --</span>
   </a>
 </p>
