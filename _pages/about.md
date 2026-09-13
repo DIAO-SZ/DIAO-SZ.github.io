@@ -109,14 +109,14 @@ redirect_from:
 <span class='anchor' id='-awards'></span>
 # <span data-lang="en">🏆 Selected Awards/Honors</span><span data-lang="zh" hidden>🏆 代表性荣誉/奖励</span>
 
+- <span data-lang="en">2025, Young Elite Scientists Sponsorship Program (for Ph.D. Students) by CAST</span>
+  <span data-lang="zh" hidden>2025年，中国科协青年人才托举工程博士生专项计划</span>
+
 - <span data-lang="en">2025, National Scholarship for Doctoral Students</span>
   <span data-lang="zh" hidden>2025年，博士研究生国家奖学金</span>
 
 - <span data-lang="en">2025, Outstanding Student of Tianjin Municipality</span>
   <span data-lang="zh" hidden>2025年，天津市优秀学生</span>
-
-- <span data-lang="en">2024, Young Elite Scientists Sponsorship Program (for Ph.D. Students) by CAST</span>
-  <span data-lang="zh" hidden>2024年，中国科协青年人才托举工程博士生专项计划</span>
 
 - <span data-lang="en">2023, Outstanding Master's Thesis Award of Shandong Province</span>
   <span data-lang="zh" hidden>2023年，山东省优秀硕士学位论文</span>
@@ -130,21 +130,27 @@ redirect_from:
 
 
 <span class='anchor' id='-academic-services'></span>
-# <span data-lang="en">🧑🏻‍💻 Academic Services</span><span data-lang="zh" hidden>🧑🏻‍💻 学术服务</span>
+# <span data-lang="en">🧩 Academic Activities</span><span data-lang="zh" hidden>🧩 学术活动</span>
 
-- <span data-lang="en"><strong>Member</strong>: Chinese Association for Automation (CAA)</span>
-  <span data-lang="zh" hidden><strong>会员</strong>：中国自动化学会 (CAA)</span>
+- <span data-lang="en">Local Organizing Committee Chair, 2026 7th International Conference on Artificial Intelligence and Electromechanical Automation (AIEA 2026)</span>
+  <span data-lang="zh" hidden>地方组织委员会主席，2026第七届人工智能与机电自动化国际学术会议（AIEA 2026）</span>
 
-- <span data-lang="en"><strong>Member</strong>: Tianjin Robotics Society (TRS)</span>
-  <span data-lang="zh" hidden><strong>会员</strong>：天津市机器人学会 (TRS)</span>
+- <span data-lang="en">Member, IEEE</span>
+  <span data-lang="zh" hidden>会员，IEEE</span>
 
-- <span data-lang="en"><strong>Reviewer</strong> for IEEE TIE, IEEE TCYB, IEEE TSMC-S, IEEE RA-L, IEEE Systems Journal, Nonlinear Dynamics, ICRA, ACC, CDC, etc.</span>
-  <span data-lang="zh" hidden><strong>审稿人</strong>：IEEE TIE、IEEE TCYB、IEEE TSMC-S、IEEE RA-L、IEEE Systems Journal、Nonlinear Dynamics、ICRA、ACC、CDC 等</span>
+- <span data-lang="en">Member, Chinese Association of Automation (CAA) </span>
+  <span data-lang="zh" hidden>会员，中国自动化学会</span>
+
+- <span data-lang="en">Member, Chinese Association for Artificial Intelligence (CAAI)</span>
+  <span data-lang="zh" hidden>会员，中国人工智能学会</span>
+
+- <span data-lang="en"><strong>Reviewer</strong>: IEEE TMECH, IEEE TCYB, IEEE TFS, IEEE TIE, IEEE TSMCS, etc.</span>
+  <span data-lang="zh" hidden><strong>审稿人</strong>：IEEE TMECH、IEEE TCYB、IEEE TFS、IEEE TIE、IEEE TSMCS等</span>
 
 
 <p class="news-actions">
   <a class="btn" href="{{ '/services/' | relative_url }}">
     <span data-lang="en">-- Explore All Services --</span>
-    <span data-lang="zh" hidden>-- 查看更多学术服务 --</span>
+    <span data-lang="zh" hidden>-- 查看更多学术活动 --</span>
   </a>
 </p>
