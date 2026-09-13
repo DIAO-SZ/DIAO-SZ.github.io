@@ -2,7 +2,12 @@
 
 <ul class="award-list">
   <li>
-     <span data-lang="en">2026, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (IEEE-AIEA 2026)</span>
+    <span data-lang="en">2025, <strong><span style="color:#f09f00">Young Elite Scientists Sponsorship Program (for Ph.D. Students) by CAST</span></strong>, CAST</span>
+    <span data-lang="zh" hidden>2025年，中国科协青托博士生转型计划<strong><span style="color:#f09f00">中国科协</span></strong></span>
+  </li>
+
+  <li>
+ <span data-lang="en">2026, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (IEEE-AIEA 2026)</span>
      <span data-lang="zh" hidden>2026年，第七届IEEE人工智能与机电自动化国际学术会议 (IEEE-AIEA 2026) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
   </li>
 
