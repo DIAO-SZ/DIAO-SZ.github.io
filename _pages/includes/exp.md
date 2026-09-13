@@ -3,7 +3,7 @@
   <li class="cv-item">
     <div class="cv-row">
       <div class="cv-logo">
-        <img src="/images/logos/PolyU.svg" alt="PolyU logo" loading="lazy" />
+         <img src="/images/logos/NKU.png" alt="NKU logo" loading="lazy" />
       </div>
       <div class="cv-details">
         <div class="cv-main" data-lang="en">
@@ -25,7 +25,7 @@
           研究方向：气动人工肌肉机器人
         </div>
       </div>
-      <div class="cv-date">08/2026–Present</div>
+      <div class="cv-date">09/2026–Now</div>
     </div>
   </li>
 
