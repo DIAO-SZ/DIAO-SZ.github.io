@@ -7,7 +7,7 @@
       </div>
       <div class="cv-details">
         <div class="cv-main" data-lang="en">
-          <span class="cv-role">Postdoctoral Fellow</span> in
+          <span class="cv-role">Assistant Researcher</span> in
           <a href="https://www.polyu.edu.hk/rclae/">Research Centre for Low Altitude Economy (RCLAE)</a>,
           <a href="https://www.polyu.edu.hk/aae/">Department of Aeronautical and Aviation Engineering (AAE)</a>,
           <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University (PolyU)</a>, Hong Kong, China
