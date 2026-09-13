@@ -19,9 +19,29 @@
     <span data-lang="zh" hidden>2021年，山东省研究生优秀成果奖</span>
   </li>
 
+<li>
+  <span data-lang="en">2026, Best Paper Award, 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (AIEA 2026)</span>
+  <span data-lang="zh" hidden>2026年，第七届IEEE人工智能与机电自动化国际学术会议（AIEA 2026）最佳论文奖</span>
+</li>
+
+<li>
+  <span data-lang="en">2021, First Prize for Excellent Paper, The 9th TCCT Workshop on Stochastic Systems and Control</span>
+  <span data-lang="zh" hidden>2021年，第九届TCCT随机系统与控制专题大会优秀论文一等奖</span>
+</li>
+
   <li>
-    <span data-lang="en">2021, First Prize for Excellent Paper, Technical Committee on Control Theory (TCCT) Workshop on Stochastic Systems and Control</span>
-    <span data-lang="zh" hidden>2021年，控制理论专业委员会（TCCT）随机系统与控制专题研讨会优秀论文一等奖</span>
+    <span data-lang="en">2018, Third Prize, China Undergraduate Mathematics Competition (Mathematics Category)</span>
+    <span data-lang="zh" hidden>2018年，全国大学生数学竞赛（数学类）三等奖</span>
+  </li>
+
+  <li>
+    <span data-lang="en">2018, Second Prize, Shandong Provincial Undergraduate Mathematics Competition (Mathematics Group)</span>
+    <span data-lang="zh" hidden>2018年，山东省大学生数学竞赛（数学组）二等奖</span>
+  </li>
+
+  <li>
+    <span data-lang="en">2017, Third Prize, Shandong Provincial Undergraduate Mathematics Competition (Mathematics Group)</span>
+    <span data-lang="zh" hidden>2017年，山东省大学生数学竞赛（数学组）三等奖</span>
   </li>
 
 </ul>
@@ -31,9 +51,15 @@
 
 <ul class="award-list">
 
+
   <li>
-    <span data-lang="en">2026, Outstanding Graduate, Nankai University</span>
-    <span data-lang="zh" hidden>2026年，南开大学优秀毕业生</span>
+    <span data-lang="en">2025, National Scholarship for Doctoral Students</span>
+    <span data-lang="zh" hidden>2025年，博士研究生国家奖学金</span>
+  </li>
+
+  <li>
+    <span data-lang="en">2021, National Scholarship for Master's Students</span>
+    <span data-lang="zh" hidden>2021年，硕士研究生国家奖学金</span>
   </li>
 
   <li>
@@ -42,13 +68,13 @@
   </li>
 
   <li>
-    <span data-lang="en">2025, National Scholarship for Doctoral Students</span>
-    <span data-lang="zh" hidden>2025年，博士研究生国家奖学金</span>
+    <span data-lang="en">2026, Outstanding Graduate, Nankai University</span>
+    <span data-lang="zh" hidden>2026年，南开大学优秀毕业生</span>
   </li>
 
   <li>
     <span data-lang="en">2025, Outstanding Graduate Student, Nankai University</span>
-    <span data-lang="zh" hidden>2025年，南开大学优秀研究生</span>
+    <span data-lang="zh" hidden>2025年，南开大学三好学生</span>
   </li>
 
   <li>
@@ -58,7 +84,7 @@
 
   <li>
     <span data-lang="en">2024, Outstanding Graduate Student, Nankai University</span>
-    <span data-lang="zh" hidden>2024年，南开大学优秀研究生</span>
+    <span data-lang="zh" hidden>2024年，南开大学三好学生</span>
   </li>
 
   <li>
@@ -67,8 +93,9 @@
   </li>
 
   <li>
-    <span data-lang="en">2021, National Scholarship for Master's Students</span>
-    <span data-lang="zh" hidden>2021年，硕士研究生国家奖学金</span>
+    <span data-lang="en">2020, First Prize, Academic Scholarship, Liaocheng University</span>
+    <span data-lang="zh" hidden>2020年，聊城大学学业奖学金一等奖</span>
   </li>
+
 
 </ul>
