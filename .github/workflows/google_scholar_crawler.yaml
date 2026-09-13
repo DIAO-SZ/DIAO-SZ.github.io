@@ -27,12 +27,11 @@ jobs:
           python -m pip install --upgrade pip
           cd ./google_scholar_crawler
           pip install -r requirements.txt
-          pip install "bibtexparser==1.4.3"
 
       - name: Get citation data
         env:
-  GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-  SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
           cd ./google_scholar_crawler
           python main.py

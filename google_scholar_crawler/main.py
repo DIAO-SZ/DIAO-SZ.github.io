@@ -3,8 +3,14 @@ import json
 import requests
 from datetime import datetime
 
-SCHOLAR_ID = os.environ["GOOGLE_SCHOLAR_ID"]
-SERPAPI_KEY = os.environ["SERPAPI_KEY"]
+SCHOLAR_ID = os.environ.get("GOOGLE_SCHOLAR_ID")
+SERPAPI_KEY = os.environ.get("SERPAPI_KEY")
+
+if not SCHOLAR_ID:
+    raise RuntimeError("GOOGLE_SCHOLAR_ID is not set.")
+
+if not SERPAPI_KEY:
+    raise RuntimeError("SERPAPI_KEY is not set.")
 
 url = "https://serpapi.com/search.json"
 
@@ -23,19 +29,29 @@ response = requests.get(
     timeout=30
 )
 
+print(f"HTTP status: {response.status_code}")
 response.raise_for_status()
 
 data = response.json()
 
+if "error" in data:
+    raise RuntimeError(f"SerpApi error: {data['error']}")
+
+if "cited_by" not in data:
+    raise RuntimeError(
+        "No cited_by data returned by SerpApi. "
+        f"Response keys: {list(data.keys())}"
+    )
+
 citation_count = None
 
-for item in data["cited_by"]["table"]:
+for item in data["cited_by"].get("table", []):
     if "citations" in item:
-        citation_count = item["citations"]["all"]
+        citation_count = item["citations"].get("all")
         break
 
 if citation_count is None:
-    raise RuntimeError("Citation count not found.")
+    raise RuntimeError("Citation count not found in SerpApi response.")
 
 print(f"Citation count: {citation_count}")
 
