@@ -44,14 +44,6 @@ redirect_from:
 <span data-lang="zh" hidden>点击 **[出版物](/publications/)** 查看完整列表。</span>
 
 <link rel="stylesheet" href="{{ '/assets/css/pub_styles.css' | relative_url }}">
-<div class="paper-container">
-  <!-- Left side: GIF -->
-  <div class="gif-container">
-
-  <img src="{{ '/images/papers/zhaiExtendedKalmanFilteringBased2025.jpg' | relative_url }}" alt="GIF Description" class="paper-gif">
-  </div>
-  <!-- Right side: Paper Information -->
-<link rel="stylesheet" href="{{ '/assets/css/pub_styles.css' | relative_url }}">
 
 <div class="paper-container">
   <!-- Left side: GIF -->
@@ -118,9 +110,13 @@ redirect_from:
 # <span data-lang="en">🏆 Selected Awards/Honors</span><span data-lang="zh" hidden>🏆 代表性荣誉/奖励</span>
 
 - <span data-lang="en">2026, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, The 2026 IEEE 7th International Conference on Artificial Intelligence and Electromechanical Automation (IEEE-AIEA 2026)</span> <span data-lang="zh" hidden>2026年，第七届IEEE人工智能与机电自动化国际学术会议 (IEEE-AIEA 2026) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
+
 - <span data-lang="en">2025, <strong><span style="color:#f09f00">Excellent Articles</span></strong>, The 1st Conference on Systems Engineering and Electronics</span> <span data-lang="zh" hidden>2025年，首届系统工程与电子技术大会<strong><span style="color:#f09f00">优秀论文</span></strong></span>
-- <span data-lang="en">2025, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, The 2025 International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI 2025)</span> <span data-lang="zh" hidden>2026年，机电一体化、机器人与人工智能学术会议 (MRAI 2025) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
+
+- <span data-lang="en">2025, <strong><span style="color:#f09f00">Best Paper Award</span></strong>, The 2025 International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI 2025)</span> <span data-lang="zh" hidden>2025年，机电一体化、机器人与人工智能学术会议 (MRAI 2025) <strong><span style="color:#f09f00">最佳论文奖</span></strong></span>
+
 - <span data-lang="en">2025, <strong><span style="color:#f09f00">National Scholarship</span></strong> for Doctoral Students, Nankai University</span> <span data-lang="zh" hidden>2025年，南开大学博士生<strong><span style="color:#f09f00">国家奖学金</span></strong></span>
+
 - <span data-lang="en">2023, <strong><span style="color:#f09f00">Best Poster Paper Award</span></strong>, The 7th Chinese Conference on Swarm Intelligence and Cooperative Control (CCSICC 2023)</span> <span data-lang="zh" hidden>2023年，第七届全国集群智能与协同控制大会 (CCSICC 2023) <strong><span style="color:#f09f00">最佳张贴论文奖</span></strong></span>
 
 <p class="news-actions">
