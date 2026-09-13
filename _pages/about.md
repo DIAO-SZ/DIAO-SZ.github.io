@@ -51,10 +51,19 @@ redirect_from:
   <img src="{{ '/images/papers/zhaiExtendedKalmanFilteringBased2025.jpg' | relative_url }}" alt="GIF Description" class="paper-gif">
   </div>
   <!-- Right side: Paper Information -->
+<link rel="stylesheet" href="{{ '/assets/css/pub_styles.css' | relative_url }}">
+
+<div class="paper-container">
+  <!-- Left side: GIF -->
+  <div class="gif-container">
+
+  <img src="{{ '/images/papers/zhaiExtendedKalmanFilteringBased2025.jpg' | relative_url }}" alt="GIF Description" class="paper-gif">
+  </div>
+  <!-- Right side: Paper Information -->
   <div class="info-container">
-    <p class="paper-title">Extended Kalman filtering-based nonlinear model predictive control for underactuated systems with multiple constraints and obstacle avoidance </p>
-    <p class="authors"> <b>Meng Zhai</b>, Tong Yang, Qingxiang Wu, Shudong Guo, Ruiping Pang, and Ning Sun </p>
-    <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Cybernetics</span></b>, vol. 55, no. 1, pp. 369-382, Jan. 2025 </p>
+    <p class="paper-title">Velocity feedback-free synchronous control for pneumatic artificial muscle-actuated parallel robots with fractional-order hysteresis </p>
+    <p class="authors"> <b>Shuzhen Diao</b><sup>#</sup>, Gendi Liu, Xinlin Zhang, Jing Zhao, Yanding Qin, Wei Sun, and Ning Sun<sup>*</sup> </p>
+    <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Industrial Electronics</span></b>, vol. 72, no. 11, pp. 11725–11735, 2025 </p>
     <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/10752633/?arnumber=10752633">Paper</a> </p>
   </div>
 </div>
@@ -66,9 +75,9 @@ redirect_from:
   </div>
   <!-- Right side: Paper Information -->
   <div class="info-container">
-    <p class="paper-title">Underactuated mechanical systems with both actuator and actuated/unactuated state constraints: A predictive control-based approach </p>
-    <p class="authors"> <b>Meng Zhai</b>, Ning Sun, Tong Yang, and Yongchun Fang </p>
-    <p class="journal"> <b><span style="color:#224B8D">IEEE/ASME Transactions on Mechatronics</span></b>, vol. 28, no. 3, pp. 1359-1371, June 2023 </p>
+    <p class="paper-title">Finite-time synchronous motion control for pneumatic muscle-actuated parallel robots in Cartesian space </p>
+    <p class="authors"> <b>Shuzhen Diao</b><sup>#</sup>, Gendi Liu, Tong Yang, Menghua Zhang, Yanding Qin, Wei Sun, and Ning Sun<sup>*</sup> </p>
+    <p class="journal"> <b><span style="color:#224B8D">IEEE/ASME Transactions on Mechatronics</span></b>, vol. 30, no. 3, pp. 2389–2400, 2025 </p>
     <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/10001761">Paper</a> </p>
   </div>
 </div>
@@ -80,24 +89,10 @@ redirect_from:
   </div>
   <!-- Right side: Paper Information -->
   <div class="info-container">
-    <p class="paper-title">Adaptive neural network unified control for general MIMO underactuated mechatronic systems with disturbances via modified normal forms </p>
-    <p class="authors"> <b>Meng Zhai</b>, Tong Yang, Ming Li, Xuerui Jiao, Yongchun Fang, and Ning Sun </p>
-    <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Automation Science and Engineering</span></b>, vol. 22, pp. 19377-19391, 2025 </p>
+    <p class="paper-title">Dynamic compliant control with multistep prediction for pneumatic artificial muscle-actuated parallel robots </p>
+    <p class="authors"> <b>Shuzhen Diao</b><sup>#</sup>, Xinlin Zhang, Zhi-Xin Yang, Yanding Qin, Wei Sun, and Ning Sun<sup>*</sup> </p>
+    <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Industrial Electronics</span></b>, accepted Aug. 19, 2026 </p>
     <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/11099087">Paper</a> </p>
-  </div>
-</div>
-
-<div class="paper-container">
-  <!-- Left side: GIF -->
-  <div class="gif-container">
-    <img src="/images/papers/zhaiAdaptiveFuzzyControl2025.jpg" alt="GIF Description" class="paper-gif">
-  </div>
-  <!-- Right side: Paper Information -->
-  <div class="info-container">
-    <p class="paper-title">Adaptive fuzzy control for underactuated robot systems with inaccurate actuated states and unavailable unactuated states </p>
-    <p class="authors"> <b>Meng Zhai</b>, Shuzhen Diao, Tong Yang, Qingxiang Wu, Yongchun Fang, and Ning Sun </p>
-    <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Automation Science and Engineering</span></b>, vol. 22, pp. 1566-1578, 2025 </p>
-    <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/10445242/?arnumber=10445242">Paper</a> </p>
   </div>
 </div>
 
