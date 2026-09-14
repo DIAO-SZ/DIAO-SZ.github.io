@@ -21,10 +21,9 @@ I received the Ph.D. degree in Artificial Intelligence from
   (for Ph.D. students), and the inaugural 
   <strong>Young Elite Scientists Sponsorship Program (for Ph.D. Students) by China Association for Science and Technology (CAST)</strong>. 
 
-  My research contributions have resulted in <strong>10+ publications</strong> 
-  <a href="https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ">
-    <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/diao-sz/diao-sz.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" 
-         alt="Google Scholar citations">
+  My research contributions have resulted in <strong>10+ publications</strong>
+  <a href='https://scholar.google.com/citations?user=g91ocA8AAAAJ'>
+    <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/meng-zhai/meng-zhai.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citations">
   </a>
   in top journals, including <strong>IEEE Transactions</strong>. 
 </p>
