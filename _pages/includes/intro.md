@@ -1,4 +1,4 @@
-# <span data-lang="en">👨🏻‍🎓 Biography</span><span data-lang="zh" hidden>👨🏻‍🎓 个人简介</span>
+# <span data-lang="en">📍 About</span><span data-lang="zh" hidden>📍 简介</span>
 
 <p data-lang="en">
   👋 Hi, I am currently an Assistant Researcher at the School of Artificial Intelligence, Nankai University. My research mainly focuses on 
