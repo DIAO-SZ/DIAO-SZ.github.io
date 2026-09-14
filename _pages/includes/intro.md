@@ -10,9 +10,7 @@ I received the Ph.D. degree in Artificial Intelligence from
   in June 2026, under the supervision of Prof.  Ning Sun.
 </p>
 <p data-lang="zh" hidden>
-我目前是南开大学人工智能学院的助理研究员，主要围绕 <span style="color: #6F2C91;"><strong>柔性结构机器人系统</strong></span>（包括气动人工肌肉机器人和柔性关节机器人）开展相关研究，涉及迟滞建模、运动控制和柔顺交互三个方面。
-
-此前，我于2026年6月在南开大学</a>获得人工智能专业博士学位，师从孙宁教授。
+我目前是南开大学人工智能学院的助理研究员，主要围绕 <span style="color: #6F2C91;"><strong>柔性结构机器人系统</strong></span>（包括气动人工肌肉机器人和柔性关节机器人）开展相关研究，涉及迟滞建模、运动控制和柔顺交互三个方面。此前，我于2026年6月在南开大学</a>获得人工智能专业博士学位，师从孙宁教授。
 </p>
 
 <p data-lang="en">
@@ -20,8 +18,7 @@ I received the Ph.D. degree in Artificial Intelligence from
   <strong>National Natural Science Foundation of China (NSFC) Youth Student Basic Research Project</strong> 
   (for Ph.D. students), and the inaugural 
   <strong>Young Elite Scientists Sponsorship Program (for Ph.D. Students) by China Association for Science and Technology (CAST)</strong>. 
-
-  <p data-lang="en">
+<p data-lang="en">
   My research contributions have resulted in <strong>10+ publications</strong>
   <a href="https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ">
     <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/DIAO-SZ/DIAO-SZ.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"
