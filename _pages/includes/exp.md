@@ -24,7 +24,7 @@
         </div>
 
         <div class="cv-sub" data-lang="en">
-          Research Areas: pneumatic artificial muscle-actuated robots
+          Research Areas: Pneumatic artificial muscle-actuated robots
         </div>
 
         <div class="cv-main" data-lang="zh" hidden>
