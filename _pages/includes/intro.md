@@ -9,7 +9,7 @@
 </p>
 
 <p data-lang="zh" hidden>
-  我目前是南开大学人工智能学院的助理研究员，也是<a href="https://url.nankai.edu.cn/info/1032/1216.htm">孙宁教授</a>课题组成员。此前，我在南开大学获得电子信息专业博士学位，师从孙宁教授。
+  我目前是南开大学人工智能学院的助理研究员，也是<a href="https://url.nankai.edu.cn/info/1032/1216.htm">孙宁教授</a>课题组成员。此前，我在南开大学获得电子信息博士学位，师从孙宁教授。
 </p>
 
 <p data-lang="en">
