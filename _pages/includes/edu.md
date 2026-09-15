@@ -12,7 +12,7 @@
       <div class="cv-details">
 
         <div class="cv-main" data-lang="en">
-          <span class="cv-degree">Ph.D.</span> in Artificial Intelligence,
+          <span class="cv-degree">Ph.D.</span> in Electronic Information,
           College of Artificial Intelligence, Nankai University, Tianjin, China
         </div>
 
@@ -25,7 +25,7 @@
         </div>
 
         <div class="cv-main" data-lang="zh" hidden>
-          <span class="cv-degree">专业博士</span>（人工智能），
+          <span class="cv-degree">电子信息博士</span>（人工智能），
           南开大学，人工智能学院，中国天津
         </div>
 
