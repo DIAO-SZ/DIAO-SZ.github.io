@@ -9,9 +9,7 @@
 </p>
 
 <p data-lang="zh" hidden>
-  我目前是南开大学人工智能学院的助理研究员，也是
-  <a href="https://url.nankai.edu.cn/info/1032/1216.htm">孙宁教授</a>
-  课题组成员。此前，我在南开大学获得电子信息专业博士学位，师从孙宁教授。
+  我目前是南开大学人工智能学院的助理研究员，也是<a href="https://url.nankai.edu.cn/info/1032/1216.htm">孙宁教授</a>课题组成员。此前，我在南开大学获得电子信息专业博士学位，师从孙宁教授。
 </p>
 
 <p data-lang="en">
@@ -40,16 +38,8 @@
 </p>
 
 <p data-lang="zh" hidden>
-  我主要围绕
-  <strong>
-    <span style="color: #6F2C91;">柔性结构机器人系统</span>
-  </strong>
-  （包括气动人工肌肉机器人和柔性关节机器人）开展了相关研究，涉及迟滞建模、运动控制和柔顺交互三个方面。
-  获批了首批
-  <strong>国家自然科学基金青年学生基础研究项目（博士研究生）</strong>，
-  入选了首批
-  <strong>中国科协青年人才托举工程博士生专项计划</strong>；
-  在 <strong>IEEE Transactions</strong> 等高水平期刊发表论文10余篇
+  我主要围绕<strong><span style="color: #6F2C91;">柔性结构机器人系统</span></strong>(包括气动人工肌肉机器人和柔性关节机器人)开展了相关研究，涉及迟滞建模、运动控制和柔顺交互三个方面。获批了首批<strong>国家自然科学基金青年学生基础研究项目(博士研究生)</strong>，入选了首批
+  <strong>中国科协青年人才托举工程博士生专项计划</strong>；在 <strong>IEEE Transactions</strong> 等高水平期刊发表论文10余篇
   <a href="https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ">
     <img
       src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/DIAO-SZ/DIAO-SZ.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"
