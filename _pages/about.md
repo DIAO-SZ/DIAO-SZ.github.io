@@ -38,7 +38,7 @@ redirect_from:
 
 
 <span class='anchor' id='-publications'></span>
-# <span data-lang="en">📄 Publications</span><span data-lang="zh" hidden>📄 成果</span>
+# <span data-lang="en">📄 Publications</span><span data-lang="zh" hidden>📄 论文</span>
 
 <span data-lang="en">Explore the full list of publications on the **[Publications](/publications/)** page.</span>
 <span data-lang="zh" hidden>点击 **[出版物](/publications/)** 查看完整列表。</span>
