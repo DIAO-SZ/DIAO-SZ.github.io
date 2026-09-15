@@ -49,7 +49,7 @@ redirect_from:
   <!-- Left side: GIF -->
   <div class="gif-container">
 
-  <img src="{{ '/images/papers/zhaiExtendedKalmanFilteringBased2025.jpg' | relative_url }}" alt="GIF Description" class="paper-gif">
+  <img src="{{ '/images/papers/TIE2025.png' | relative_url }}" alt="GIF Description" class="paper-gif">
   </div>
   <!-- Right side: Paper Information -->
   <div class="info-container">
@@ -63,7 +63,7 @@ redirect_from:
 <div class="paper-container">
   <!-- Left side: GIF -->
   <div class="gif-container">
-    <img src="/images/papers/zhaiUnderactuatedMechanicalSystems2023.jpg" alt="GIF Description" class="paper-gif">
+    <img src="/images/papers/TMECH2025.gif" alt="GIF Description" class="paper-gif">
   </div>
   <!-- Right side: Paper Information -->
   <div class="info-container">
@@ -77,7 +77,7 @@ redirect_from:
 <div class="paper-container">
   <!-- Left side: GIF -->
   <div class="gif-container">
-    <img src="/images/papers/zhaiAdaptiveNeuralNetwork2025.gif" alt="GIF Description" class="paper-gif">
+    <img src="/images/papers/TIE2026.png" alt="GIF Description" class="paper-gif">
   </div>
   <!-- Right side: Paper Information -->
   <div class="info-container">
