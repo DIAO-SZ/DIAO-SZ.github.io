@@ -37,8 +37,14 @@
 </p>
 
 <p data-lang="zh" hidden>
-  我获批了首批<strong><span style="color:#224B8D">国家自然科学基金</span>青年学生基础研究项目 (博士研究生)</strong>，入选了首批<strong><span style="color:#224B8D">中国科协青年人才托举工程</span>博士生专项计划</strong>。在 <strong>IEEE Transactions</strong> 等高水平期刊发表论文10余篇<a href="https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ">
-    <imgsrc="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/DIAO-SZ/DIAO-SZ.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"alt="Google Scholar citations"></a>
+  我获批了首批<strong><span style="color:#224B8D">国家自然科学基金</span>青年学生基础研究项目 (博士研究生)</strong>，入选了首批<strong><span style="color:#224B8D">中国科协青年人才托举工程</span>博士生专项计划</strong>。在 <strong>IEEE Transactions</strong> 等高水平期刊发表论文10余篇
+<a href="https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ">
+    <img
+      src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/DIAO-SZ/DIAO-SZ.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"
+      alt="Google Scholar citations"
+    >
+  </a>
+
 </p>
 
 <p data-lang="en">
