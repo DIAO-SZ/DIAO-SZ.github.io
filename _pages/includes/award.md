@@ -93,8 +93,8 @@
   </li>
 
   <li>
-    <span data-lang="en">2020, First Prize, Academic Scholarship, Liaocheng University</span>
-    <span data-lang="zh" hidden>2020年，聊城大学学业奖学金一等奖</span>
+    <span data-lang="en">2020, First-Class Scholarship, Liaocheng University</span>
+    <span data-lang="zh" hidden>2020年，聊城大学一等奖学金</span>
   </li>
 
 
