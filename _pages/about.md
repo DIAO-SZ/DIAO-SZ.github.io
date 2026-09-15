@@ -41,11 +41,11 @@ redirect_from:
 # <span data-lang="en">📄 Selected Publications</span><span data-lang="zh" hidden>📄 代表性成果</span>
 
 <span data-lang="en">
- <strong><a href="/publications/">Click</a>to view the full list</strong>.
+ <strong><a href="/publications/">Click </a>to view the full list</strong>
 </span>
 
 <span data-lang="zh" hidden>
-  <strong><a href="/publications/">点击</a>查看完整列表</strong>。
+  <strong><a href="/publications/">点击</a>查看完整列表</strong>
 </span>
 
 <link rel="stylesheet" href="{{ '/assets/css/pub_styles.css' | relative_url }}">
