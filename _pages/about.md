@@ -119,10 +119,10 @@ redirect_from:
 - <span data-lang="en">2025, National Scholarship for Doctoral Students</span>
   <span data-lang="zh" hidden>2025年，博士研究生国家奖学金</span>
 
-- <span data-lang="en">2025, Outstanding Student of Tianjin Municipality</span>
+- <span data-lang="en">2025, Outstanding Student of Tianjin</span>
   <span data-lang="zh" hidden>2025年，天津市优秀学生</span>
 
-- <span data-lang="en">2023, Outstanding Master's Thesis Award of Shandong Province</span>
+- <span data-lang="en">2023, Outstanding Master's Thesis Award of Shandong</span>
   <span data-lang="zh" hidden>2023年，山东省优秀硕士学位论文</span>
 
 <p class="news-actions">
