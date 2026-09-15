@@ -90,7 +90,7 @@ redirect_from:
 
 
 <span class='anchor' id='-patents'></span> 
-# <span data-lang="en">📜  Selected Patents</span><span data-lang="zh" hidden>📜  部分专利</span> 
+# <span data-lang="en">💡  Selected Patents</span><span data-lang="zh" hidden>💡  部分专利</span> 
  
 - <span data-lang="en">Ning Sun, <strong>Shuzhen Diao</strong>, Qingxiang Wu, and Tong Yang, Hysteresis compensation-based control method and system for pneumatic artificial muscle-actuated parallel robots, <strong>China Invention Patent</strong>, Patent No.: ZL202510211980.8, Application No.: CN202510211980.8, filed Feb. 25, 2025, granted Jan. 30, 2026.</span> 
   <span data-lang="zh" hidden>孙宁，<strong>刁淑贞</strong>，吴庆祥，杨桐，基于迟滞补偿的气动人工肌肉并联机器人控制方法及系统，<strong>中国发明专利</strong>，专利号：ZL202510211980.8，申请号：CN202510211980.8，申请日：2025.02.25，授权日：2026.01.30。</span> 
