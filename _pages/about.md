@@ -145,7 +145,7 @@ redirect_from:
   <span data-lang="zh" hidden>会员，中国人工智能学会</span>
 
 - <span data-lang="en"><strong>Reviewer</strong>: IEEE TMECH, IEEE TCYB, IEEE TFS, IEEE TIE, IEEE TSMCS, etc.</span>
-  <span data-lang="zh" hidden><strong>审稿人</strong>：IEEE TMECH、IEEE TCYB、IEEE TFS、IEEE TIE、IEEE TSMCS等</span>
+  <span data-lang="zh" hidden>审稿人：IEEE TMECH、IEEE TCYB、IEEE TFS、IEEE TIE、IEEE TSMCS等</span>
 
 
 <p class="news-actions">
