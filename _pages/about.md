@@ -38,7 +38,7 @@ redirect_from:
 
 
 <span class='anchor' id='-publications'></span>
-# <span data-lang="en">📄 Selected Publications</span><span data-lang="zh" hidden>📄 代表性成果</span>
+# <span data-lang="en">📄 Publications</span><span data-lang="zh" hidden>📄 成果</span>
 
 <span data-lang="en">Explore the full list of publications on the **[Publications](/publications/)** page.</span>
 <span data-lang="zh" hidden>点击 **[出版物](/publications/)** 查看完整列表。</span>
@@ -90,7 +90,7 @@ redirect_from:
 
 
 <span class='anchor' id='-patents'></span> 
-# <span data-lang="en">💡  Selected Patents</span><span data-lang="zh" hidden>💡  部分专利</span> 
+# <span data-lang="en">💡 Patents</span><span data-lang="zh" hidden>💡 专利</span> 
  
 - <span data-lang="en">Ning Sun, <strong>Shuzhen Diao</strong>, Qingxiang Wu, and Tong Yang, Hysteresis compensation-based control method and system for pneumatic artificial muscle-actuated parallel robots, <strong>China Invention Patent</strong>, Patent No.: ZL202510211980.8, Application No.: CN202510211980.8, filed Feb. 25, 2025, granted Jan. 30, 2026.</span> 
   <span data-lang="zh" hidden>孙宁，<strong>刁淑贞</strong>，吴庆祥，杨桐，基于迟滞补偿的气动人工肌肉并联机器人控制方法及系统，<strong>中国发明专利</strong>，专利号：ZL202510211980.8，申请号：CN202510211980.8，申请日：2025.02.25，授权日：2026.01.30。</span> 
@@ -101,13 +101,13 @@ redirect_from:
 <p class="news-actions"> 
   <a class="btn" href="{{ '/patents/' | relative_url }}"> 
     <span data-lang="en">-- View All Patents --</span> 
-    <span data-lang="zh" hidden>-- 查看全部专利 --</span> 
+    <span data-lang="zh" hidden>-- 查看更多专利 --</span> 
   </a> 
 </p>
 
 
 <span class='anchor' id='-awards'></span>
-# <span data-lang="en">🏅 Selected Awards/Honors</span><span data-lang="zh" hidden>🏅 代表性荣誉/奖励</span>
+# <span data-lang="en">🏅Awards/Honors</span><span data-lang="zh" hidden>🏅奖励/荣誉</span>
 
 - <span data-lang="en">2025, Young Elite Scientists Sponsorship Program (for Ph.D. Students) by CAST</span>
   <span data-lang="zh" hidden>2025年，中国科协青年人才托举工程博士生专项计划</span>
@@ -124,7 +124,7 @@ redirect_from:
 <p class="news-actions">
   <a class="btn" href="{{ '/awards/' | relative_url }}">
     <span data-lang="en">-- View All Awards/Honors --</span>
-    <span data-lang="zh" hidden>-- 查看全部荣誉/奖励 --</span>
+    <span data-lang="zh" hidden>-- 查看更多荣誉/奖励 --</span>
   </a>
 </p>
 
