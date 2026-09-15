@@ -1,4 +1,4 @@
-# <span data-lang="en">🏆 Honors and Awards</span><span data-lang="zh" hidden>🏆 荣誉奖励</span>
+# <span data-lang="en">🏅 Honors and Awards</span><span data-lang="zh" hidden>🏅 荣誉奖励</span>
 
 ### <span data-lang="en">Academic Awards</span><span data-lang="zh" hidden>学术奖励</span>
 
