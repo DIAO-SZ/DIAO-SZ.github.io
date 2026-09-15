@@ -4,12 +4,12 @@
   I am currently an Assistant Researcher at the School of Artificial Intelligence, Nankai University, China,
   and a member of the research group led by
   <a href="https://url.nankai.edu.cn/info/1032/1216.htm">Prof. Ning Sun</a>.
-  Prior to this, I received the Ph.D. degree in Electronic Information from Nankai University,
+  Prior to this, I received the Ph.D. degree in  Artificial Intelligence from Nankai University,
   under the supervision of Prof. Ning Sun.
 </p>
 
 <p data-lang="zh" hidden>
-  我目前是南开大学人工智能学院的助理研究员，也是<a href="https://url.nankai.edu.cn/info/1032/1216.htm">孙宁教授</a>课题组成员。此前，我在南开大学获得电子信息博士学位，师从孙宁教授。
+  我目前是南开大学人工智能学院的助理研究员，也是<a href="https://url.nankai.edu.cn/info/1032/1216.htm">孙宁教授</a>课题组成员。此前，我在南开大学获得人工智能博士学位，师从孙宁教授。
 </p>
 
 <p data-lang="en">
