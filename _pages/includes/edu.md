@@ -26,7 +26,7 @@
 
         <div class="cv-main" data-lang="zh" hidden>
           <span class="cv-degree">电子信息博士</span>（人工智能），
-          南开大学，人工智能学院，中国天津
+         人工智能学院， 南开大学，中国天津
         </div>
 
         <div class="cv-sub" data-lang="zh" hidden>
@@ -65,7 +65,7 @@
 
         <div class="cv-main" data-lang="zh" hidden>
           <span class="cv-degree">理学硕士</span>（系统科学），
-          聊城大学，数学科学学院，中国聊城
+        数学科学学院，  聊城大学，中国聊城
         </div>
 
         <div class="cv-sub" data-lang="zh" hidden>
@@ -96,7 +96,7 @@
 
         <div class="cv-main" data-lang="zh" hidden>
           <span class="cv-degree">理学学士</span>（数学与应用数学），
-          聊城大学，数学科学学院，中国聊城
+          数学科学学院，聊城大学，中国聊城
         </div>
 
       </div>
