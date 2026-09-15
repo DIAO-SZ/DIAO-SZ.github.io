@@ -100,7 +100,7 @@ redirect_from:
  
 <p class="news-actions"> 
   <a class="btn" href="{{ '/patents/' | relative_url }}"> 
-    <span data-lang="en">-- View All Patents --</span> 
+    <span data-lang="en">-- View More Patents --</span> 
     <span data-lang="zh" hidden>-- 查看更多专利 --</span> 
   </a> 
 </p>
@@ -123,8 +123,8 @@ redirect_from:
 
 <p class="news-actions">
   <a class="btn" href="{{ '/awards/' | relative_url }}">
-    <span data-lang="en">-- View All Awards/Honors --</span>
-    <span data-lang="zh" hidden>-- 查看更多荣誉/奖励 --</span>
+    <span data-lang="en">-- View More Awards/Honors --</span>
+    <span data-lang="zh" hidden>-- 查看更多奖励/荣誉 --</span>
   </a>
 </p>
 
@@ -150,7 +150,7 @@ redirect_from:
 
 <p class="news-actions">
   <a class="btn" href="{{ '/services/' | relative_url }}">
-    <span data-lang="en">-- Explore All  Activities --</span>
+    <span data-lang="en">-- View More  Activities --</span>
     <span data-lang="zh" hidden>-- 查看更多学术活动 --</span>
   </a>
 </p>
