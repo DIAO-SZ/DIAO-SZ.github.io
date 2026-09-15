@@ -83,7 +83,7 @@ redirect_from:
   <div class="info-container">
     <p class="paper-title">Dynamic compliant control with multistep prediction for pneumatic artificial muscle-actuated parallel robots </p>
     <p class="authors"> <b>Shuzhen Diao</b><sup>#</sup>, Xinlin Zhang, Zhi-Xin Yang, Yanding Qin, Wei Sun, and Ning Sun<sup>*</sup> </p>
-    <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Industrial Electronics</span></b>, accepted Aug. 19, 2026 </p>
+    <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Industrial Electronics</span></b>,  doi: 10.1109/TIE.2026.3730054 </p>
     <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/11685365">Paper</a> </p>
   </div>
 </div>
