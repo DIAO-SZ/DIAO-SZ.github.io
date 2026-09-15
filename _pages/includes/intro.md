@@ -1,4 +1,4 @@
-# <span data-lang="en">👋 Hi there, I'm Shuzhen Diao.</span><span data-lang="zh" hidden>嗨，我是刁淑贞</span>
+# <span data-lang="en">👋 Hi there.</span><span data-lang="zh" hidden>👋 嗨~</span>
 
 <p data-lang="en">
   I am currently an Assistant Researcher at the School of Artificial Intelligence, Nankai University.
@@ -14,7 +14,7 @@
   我目前是南开大学人工智能学院的助理研究员，主要围绕
   <strong><span style="color: #6F2C91;">柔性结构机器人系统</span></strong>
   （包括气动人工肌肉机器人和柔性关节机器人）开展相关研究，涉及迟滞建模、运动控制和柔顺交互三个方面。
-  此前，我于2026年6月在南开大学获得人工智能专业博士学位，师从孙宁教授。
+我于2026年6月在南开大学获得人工智能专业博士学位，师从孙宁教授。
 </p>
 
 <p data-lang="en">
@@ -40,14 +40,15 @@
 </p>
 
 <p data-lang="zh" hidden>
-  我获批首批
-  <strong>
-    <span style="color: red;">国家自然科学基金</span>青年学生基础研究项目
-    <span style="color: red;">（博士研究生）</span>
+  我获批了首批<strong>
+    <span style="color:#224B8D">国家自然科学基金</span>青年学生基础研究项目
+    （博士研究生）
   </strong>，
-  入选了首批中国科协青年人才托举工程博士生专项计划。
+入选了首批<strong>
+<span style="color:#224B8D">中国科协青年人才托举工程</span>
+博士生专项计划</strong>。
   在 <strong>IEEE Transactions</strong> 等高水平期刊发表
-  <strong>论文10余篇</strong>
+  论文10余篇
   <a href="https://scholar.google.com/citations?hl=zh-CN&user=AggJ7NwAAAAJ">
     <img
       src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https://raw.githubusercontent.com/DIAO-SZ/DIAO-SZ.github.io/google-scholar-stats/gs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"
