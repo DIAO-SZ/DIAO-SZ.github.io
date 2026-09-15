@@ -38,7 +38,7 @@ redirect_from:
 
 
 <span class='anchor' id='-publications'></span>
-# <span data-lang="en">📄 Publications</span><span data-lang="zh" hidden>📄 成果</span>
+# <span data-lang="en">📄Publications</span><span data-lang="zh" hidden>📄成果</span>
 
 <span data-lang="en">Explore the full list of publications on the **[Publications](/publications/)** page.</span>
 <span data-lang="zh" hidden>点击 **[出版物](/publications/)** 查看完整列表。</span>
@@ -90,7 +90,7 @@ redirect_from:
 
 
 <span class='anchor' id='-patents'></span> 
-# <span data-lang="en">💡 Patents</span><span data-lang="zh" hidden>💡 专利</span> 
+# <span data-lang="en">💡Patents</span><span data-lang="zh" hidden>💡专利</span> 
  
 - <span data-lang="en">Ning Sun, <strong>Shuzhen Diao</strong>, Qingxiang Wu, and Tong Yang, Hysteresis compensation-based control method and system for pneumatic artificial muscle-actuated parallel robots, <strong>China Invention Patent</strong>, Patent No.: ZL202510211980.8, Application No.: CN202510211980.8, filed Feb. 25, 2025, granted Jan. 30, 2026.</span> 
   <span data-lang="zh" hidden>孙宁，<strong>刁淑贞</strong>，吴庆祥，杨桐，基于迟滞补偿的气动人工肌肉并联机器人控制方法及系统，<strong>中国发明专利</strong>，专利号：ZL202510211980.8，申请号：CN202510211980.8，申请日：2025.02.25，授权日：2026.01.30。</span> 
@@ -130,7 +130,7 @@ redirect_from:
 
 
 <span class='anchor' id='-academic-services'></span>
-# <span data-lang="en">🧩 Academic Activities</span><span data-lang="zh" hidden>🧩 学术活动</span>
+# <span data-lang="en">🧩Academic Activities</span><span data-lang="zh" hidden>🧩学术活动</span>
 
 - <span data-lang="en">Local Organizing Committee Chair, 2026 7th International Conference on Artificial Intelligence and Electromechanical Automation (AIEA 2026)</span>
   <span data-lang="zh" hidden>地方组织委员会主席，2026第七届人工智能与机电自动化国际学术会议（AIEA 2026）</span>
