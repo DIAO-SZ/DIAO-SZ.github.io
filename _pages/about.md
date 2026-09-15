@@ -107,7 +107,7 @@ redirect_from:
 
 
 <span class='anchor' id='-awards'></span>
-# <span data-lang="en">🏆 Selected Awards/Honors</span><span data-lang="zh" hidden>🏆 代表性荣誉/奖励</span>
+# <span data-lang="en">🏅 Selected Awards/Honors</span><span data-lang="zh" hidden>🏅 代表性荣誉/奖励</span>
 
 - <span data-lang="en">2025, Young Elite Scientists Sponsorship Program (for Ph.D. Students) by CAST</span>
   <span data-lang="zh" hidden>2025年，中国科协青年人才托举工程博士生专项计划</span>
