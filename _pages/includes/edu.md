@@ -26,9 +26,7 @@
 
         <div class="cv-main" data-lang="zh" hidden>
           <span class="cv-degree">专业博士</span>（人工智能），
-          <a href="https://www.nankai.edu.cn/main.htm">南开大学</a>，
-          <a href="https://ai.nankai.edu.cn/">人工智能学院</a>，
-          中国天津
+          南开大学，人工智能学院，中国天津
         </div>
 
         <div class="cv-sub" data-lang="zh" hidden>

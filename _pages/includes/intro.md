@@ -1,13 +1,12 @@
 # <span data-lang="en">👋 Hi there.</span><span data-lang="zh" hidden>👋 嗨~</span>
 
 <p data-lang="en">
-  I am currently an Assistant Researcher at the School of Artificial Intelligence, Nankai University.
+  I am currently an Assistant Researcher at the School of Artificial Intelligence, Nankai University, China, and a member of the research group led by <a href="https://url.nankai.edu.cn/info/1032/1216.htm">Prof. Ning Sun</a>.
   My research mainly focuses on
   <strong><span style="color: #6F2C91;">flexible-structure robotic systems</span></strong>
   (including pneumatic artificial muscle-actuated robots and flexible-joint robots),
   with particular interests in hysteresis modeling, motion control, and compliant interaction.
-  I received the Ph.D. degree in Artificial Intelligence from Nankai University
-  in June 2026, under the supervision of Prof. Ning Sun.
+  Prior to this, I received the Ph.D. degree in Artificial Intelligence from Nankai University, under the supervision of Prof. Ning Sun.
 </p>
 
 <p data-lang="zh" hidden>
