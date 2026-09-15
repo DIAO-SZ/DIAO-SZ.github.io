@@ -56,7 +56,7 @@ redirect_from:
     <p class="paper-title">Velocity feedback-free synchronous control for pneumatic artificial muscle-actuated parallel robots with fractional-order hysteresis </p>
     <p class="authors"> <b>Shuzhen Diao</b><sup>#</sup>, Gendi Liu, Xinlin Zhang, Jing Zhao, Yanding Qin, Wei Sun, and Ning Sun<sup>*</sup> </p>
     <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Industrial Electronics</span></b>, vol. 72, no. 11, pp. 11725–11735, 2025 </p>
-    <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/10752633/?arnumber=10752633">Paper</a> </p>
+    <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/10990128/">Paper</a> </p>
   </div>
 </div>
 
@@ -70,7 +70,7 @@ redirect_from:
     <p class="paper-title">Finite-time synchronous motion control for pneumatic muscle-actuated parallel robots in Cartesian space </p>
     <p class="authors"> <b>Shuzhen Diao</b><sup>#</sup>, Gendi Liu, Tong Yang, Menghua Zhang, Yanding Qin, Wei Sun, and Ning Sun<sup>*</sup> </p>
     <p class="journal"> <b><span style="color:#224B8D">IEEE/ASME Transactions on Mechatronics</span></b>, vol. 30, no. 3, pp. 2389–2400, 2025 </p>
-    <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/10001761">Paper</a> </p>
+    <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/10684424">Paper</a> </p>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ redirect_from:
     <p class="paper-title">Dynamic compliant control with multistep prediction for pneumatic artificial muscle-actuated parallel robots </p>
     <p class="authors"> <b>Shuzhen Diao</b><sup>#</sup>, Xinlin Zhang, Zhi-Xin Yang, Yanding Qin, Wei Sun, and Ning Sun<sup>*</sup> </p>
     <p class="journal"> <b><span style="color:#224B8D">IEEE Transactions on Industrial Electronics</span></b>, accepted Aug. 19, 2026 </p>
-    <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/11099087">Paper</a> </p>
+    <p class="url"> <a class="paper-link-button" href="https://ieeexplore.ieee.org/document/11685365">Paper</a> </p>
   </div>
 </div>
 
