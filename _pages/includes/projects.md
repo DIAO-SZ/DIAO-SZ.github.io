@@ -1,4 +1,4 @@
-# <span data-lang="en">⚙️ Projects</span><span data-lang="zh" hidden>⚙️ 项目</span>
+# <span data-lang="en">⚙️Projects</span><span data-lang="zh" hidden>⚙️项目</span>
 
 1. <span data-lang="en">
 <strong><span style="font-size:1.15rem">Intelligent Anti-Disturbance and Compliant Control of Pneumatic Artificial Muscle-Actuated Parallel Robots in Individual/Interactive Tasks</span></strong><br>
