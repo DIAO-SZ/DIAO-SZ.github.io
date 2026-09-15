@@ -32,8 +32,8 @@ main:
     title_zh: "奖励荣誉"
     url: "/#-awards"
 
-  - title_en: "Services"
+  - title_en: "Activities"
     title_zh: "学术活动"
-    url: "/#-academic-services"
+    url: "/#-academic-activities"
 
 
