@@ -13,7 +13,7 @@ main:
     url: "/#-education"
 
   - title_en: "News"
-    title_zh: "动态"
+    title_zh: "最新动态"
     url: "/#-news"
 
   - title_en: "Projects"
@@ -21,7 +21,7 @@ main:
     url: "/#-projects"
 
   - title_en: "Publications"
-    title_zh: "出版物"
+    title_zh: "论文"
     url: "/#-publications"
 
   - title_en: "Patents"
@@ -29,11 +29,11 @@ main:
     url: "/#-patents"
 
   - title_en: "Awards"
-    title_zh: "荣誉奖励"
+    title_zh: "奖励荣誉"
     url: "/#-awards"
 
   - title_en: "Services"
-    title_zh: "学术服务"
+    title_zh: "学术活动"
     url: "/#-academic-services"
 
 
