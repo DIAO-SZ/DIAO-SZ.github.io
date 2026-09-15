@@ -1,7 +1,9 @@
 name: Get Citation Data
 
 on:
-  page_build:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '0 8 * * *'
   workflow_dispatch:
@@ -14,21 +16,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Install Reqs
-        run: |
-          sudo apt-get install -y python3-setuptools
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      - name: Run
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - name: Install requirements
         run: |
           cd ./google_scholar_crawler
-          pip3 install -r requirements.txt
-          python3 main.py
+          pip install -r requirements.txt
 
-          cd ./results
+      - name: Fetch Google Scholar data
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: |
+          cd ./google_scholar_crawler
+          python main.py
+
+      - name: Publish citation data
+        run: |
+          cd ./google_scholar_crawler/results
+
           git init
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
