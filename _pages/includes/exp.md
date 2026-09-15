@@ -15,8 +15,8 @@
       <div class="cv-details">
 
         <div class="cv-main" data-lang="en">
-          <span class="cv-role">Assistant Researcher</span>
-          at the College of Artificial Intelligence, Nankai University, China
+          <span class="cv-role">Assistant Researcher</span>,
+          College of Artificial Intelligence, Nankai University, Tianjin, China
         </div>
 
         <div class="cv-sub" data-lang="en">
@@ -28,7 +28,7 @@
         </div>
 
         <div class="cv-main" data-lang="zh" hidden>
-          <span class="cv-role">助理研究员</span>，南开大学，人工智能学院
+          <span class="cv-role">助理研究员</span>，人工智能学院，南开大学，中国天津
         </div>
 
         <div class="cv-sub" data-lang="zh" hidden>
