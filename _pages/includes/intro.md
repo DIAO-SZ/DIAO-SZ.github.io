@@ -48,14 +48,14 @@
 </p>
 
 <p data-lang="en">
-  If you are interested in my research, or would like to discuss any related questions or ideas,
+  If you are interested in my research or would like to discuss any related questions or ideas,
   please feel free to contact me at
   <a href="mailto:diaoshuzhen@mail.nankai.edu.cn">diaoshuzhen@mail.nankai.edu.cn</a>.
-  I look forward to hearing from you~😊
+  I look forward to hearing from you 😊
 </p>
 
 <p data-lang="zh" hidden>
   如果您对我的研究感兴趣，或有相关问题和想法希望交流，欢迎随时通过
   <a href="mailto:diaoshuzhen@mail.nankai.edu.cn">diaoshuzhen@mail.nankai.edu.cn</a>
-  与我联系~😊
+  与我联系 😊
 </p>
