@@ -36,12 +36,13 @@ redirect_from:
 <span class='anchor' id='-projects'></span>
 {% include_relative includes/projects.md %}
 
+<span data-lang="en">
+  <a href="/publications/"><strong>Click here to view the full list</strong></a>.
+</span>
 
-<span class='anchor' id='-publications'></span>
-# <span data-lang="en">📄 Publications</span><span data-lang="zh" hidden>📄 论文</span>
-
-<span data-lang="en">Explore the full list of publications on the **[Publications](/publications/)** page.</span>
-<span data-lang="zh" hidden>点击 **[出版物](/publications/)** 查看完整列表。</span>
+<span data-lang="zh" hidden>
+  <a href="/publications/"><strong>点击查看完整列表</strong></a>。
+</span>
 
 <link rel="stylesheet" href="{{ '/assets/css/pub_styles.css' | relative_url }}">
 
