@@ -10,12 +10,12 @@
   </li>
 
   <li>
-    <span data-lang="en">2023, Outstanding Master's Thesis Award of Shandong Province</span>
+    <span data-lang="en">2023, Outstanding Master's Thesis Award of Shandong</span>
     <span data-lang="zh" hidden>2023年，山东省优秀硕士学位论文</span>
   </li>
 
   <li>
-    <span data-lang="en">2021, Outstanding Achievement Award for Graduate Students of Shandong Province</span>
+    <span data-lang="en">2021, Outstanding Achievement Award for Graduate Students of Shandong</span>
     <span data-lang="zh" hidden>2021年，山东省研究生优秀成果奖</span>
   </li>
 
