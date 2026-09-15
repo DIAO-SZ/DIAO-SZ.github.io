@@ -36,6 +36,10 @@ redirect_from:
 <span class='anchor' id='-projects'></span>
 {% include_relative includes/projects.md %}
 
+
+<span class='anchor' id='-publications'></span>
+# <span data-lang="en">📄 Selected Publications</span><span data-lang="zh" hidden>📄 代表性成果</span>
+
 <span data-lang="en">
   <a href="/publications/"><strong>Click here to view the full list</strong></a>.
 </span>
