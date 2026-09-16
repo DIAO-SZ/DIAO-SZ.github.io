@@ -1,6 +1,5 @@
 # <span data-lang="en">📄 Publications</span><span data-lang="zh" hidden>📄 论文列表</span>
 
-
 <div class="publication-controls">
   <input
     type="search"
@@ -70,3 +69,4 @@
 {% comment %}
 {% include citation-modal.html %}
 {% endcomment %}
+
