@@ -38,7 +38,7 @@ redirect_from:
 
 
 <span class='anchor' id='-papers'></span>
-# <span data-lang="en">📄 论文</span><span data-lang="zh" hidden>📄 论文</span>
+# <span data-lang="en">📄 Papers</span><span data-lang="zh" hidden>📄 论文</span>
 
 <span data-lang="en">
  <strong><a href="/publications/">Click </a>to view the full list</strong>
