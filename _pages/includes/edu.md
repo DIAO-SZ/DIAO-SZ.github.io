@@ -21,7 +21,7 @@
         </div>
 
         <div class="cv-sub" data-lang="en">
-          Research Areas: Pneumatic artificial muscle-actuated robots
+          Research Direction: Pneumatic artificial muscle-actuated robots
         </div>
 
         <div class="cv-main" data-lang="zh" hidden>
@@ -63,6 +63,10 @@
           Supervisor: Prof. <b>Wei Sun</b>
         </div>
 
+        <div class="cv-sub" data-lang="en">
+          Research Direction: Nonlinear control
+        </div>
+
         <div class="cv-main" data-lang="zh" hidden>
           <span class="cv-degree">理学硕士</span>（系统科学），
         数学科学学院，  聊城大学，中国聊城
@@ -70,6 +74,10 @@
 
         <div class="cv-sub" data-lang="zh" hidden>
           导师：<b>孙伟</b> 教授
+        </div>
+
+        <div class="cv-sub" data-lang="zh" hidden>
+          研究方向：非线性控制
         </div>
 
       </div>
