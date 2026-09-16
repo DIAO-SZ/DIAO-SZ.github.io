@@ -20,9 +20,9 @@ main:
     title_zh: "项目"
     url: "/#-projects"
 
-  - title_en: "Publications"
+  - title_en: "Papers"
     title_zh: "论文"
-    url: "/#-publications"
+    url: "/#-papers"
 
   - title_en: "Patents"
     title_zh: "专利"
