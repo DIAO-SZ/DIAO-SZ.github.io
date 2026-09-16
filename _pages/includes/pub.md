@@ -1,58 +1,96 @@
 # 📚 Publications
 
 <style>
+  /* =========================
+     Search / Filter / Sort
+     ========================= */
+
   .pub-controls {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 20px 0 12px 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px 155px 64px;
+    gap: 14px;
+    align-items: stretch;
     width: 100%;
+    margin: 18px 0 18px 0;
+  }
+
+  /* 统一四个控件的高度 */
+  .pub-search,
+  .pub-select,
+  .pub-sort-button {
+    height: 52px !important;
+    min-height: 52px !important;
+    max-height: 52px !important;
+
+    box-sizing: border-box !important;
+    margin: 0 !important;
+
+    border: 1px solid #cfd4da !important;
+    border-radius: 7px !important;
+
+    background-color: #fff !important;
+
+    font-family: inherit !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+
+    color: #555 !important;
   }
 
   .pub-search {
-    flex: 1;
-    min-width: 220px;
-    height: 38px;
-    padding: 6px 12px;
-    border: 1px solid #d8d8d8;
-    border-radius: 4px;
-    background: #fff;
-    font-size: 14px;
-    box-sizing: border-box;
+    width: 100% !important;
+    padding: 0 16px !important;
+  }
+
+  .pub-search::placeholder {
+    color: #888;
+    opacity: 1;
   }
 
   .pub-select {
-    height: 38px;
-    padding: 6px 30px 6px 10px;
-    border: 1px solid #d8d8d8;
-    border-radius: 4px;
-    background: #fff;
-    font-size: 14px;
+    width: 100% !important;
+    padding: 0 38px 0 16px !important;
     cursor: pointer;
   }
 
   .pub-sort-button {
-    width: 38px;
-    height: 38px;
-    padding: 0;
-    border: 1px solid #d8d8d8;
-    border-radius: 4px;
-    background: #fff;
-    font-size: 18px;
-    line-height: 36px;
-    text-align: center;
+    width: 64px !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 22px !important;
     cursor: pointer;
   }
 
-  .pub-sort-button:hover {
-    background: #f5f5f5;
+  .pub-search:focus,
+  .pub-select:focus,
+  .pub-sort-button:focus {
+    outline: none;
+    border-color: #888 !important;
   }
 
+  .pub-sort-button:hover {
+    background: #f7f7f7 !important;
+  }
+
+
+  /* =========================
+     Result count
+     ========================= */
+
   .pub-result-count {
-    margin: 4px 0 18px 0;
-    font-size: 13px;
+    margin: 0 0 20px 0;
+    font-size: 14px;
     color: #777;
   }
+
+
+  /* =========================
+     Publication list
+     ========================= */
 
   .publication-list {
     width: 100%;
@@ -61,34 +99,38 @@
   .publication-item {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 14px;
+    gap: 14px;
+    margin-bottom: 16px;
   }
 
   .publication-number {
-    flex: 0 0 auto;
-    min-width: 34px;
+    flex: 0 0 48px;
+    width: 48px;
+    text-align: left;
+
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1.65;
+    color: #555;
   }
 
   .publication-content {
     flex: 1;
     min-width: 0;
+
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1.65;
   }
 
   .publication-content p {
     margin: 0;
   }
 
-  .publication-title {
-    color: inherit;
-  }
-
   .publication-content a {
     word-break: break-word;
+  }
+
+  .publication-title {
+    color: inherit;
   }
 
   .pub-empty {
@@ -96,19 +138,37 @@
     color: #777;
   }
 
-  @media (max-width: 700px) {
+
+  /* =========================
+     Mobile
+     ========================= */
+
+  @media (max-width: 800px) {
+
     .pub-controls {
-      flex-wrap: wrap;
+      grid-template-columns: 1fr 1fr 64px;
     }
 
     .pub-search {
-      flex: 1 1 100%;
-      width: 100%;
+      grid-column: 1 / -1;
     }
 
-    .pub-select {
-      flex: 1;
+  }
+
+  @media (max-width: 520px) {
+
+    .pub-controls {
+      grid-template-columns: 1fr 1fr;
     }
+
+    .pub-search {
+      grid-column: 1 / -1;
+    }
+
+    .pub-sort-button {
+      width: 100% !important;
+    }
+
   }
 </style>
 
@@ -159,6 +219,7 @@
   id="pub-result-count"
   class="pub-result-count"
 ></div>
+
 
 <div
   id="publication-list"
@@ -283,9 +344,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const typeFilter =
     document.getElementById("pub-type");
 
-  const sortFilter =
-    document.getElementById("pub-sort");
-
   const sortDirectionButton =
     document.getElementById("pub-sort-direction");
 
@@ -296,27 +354,15 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("pub-result-count");
 
 
-  /*
-   * 默认：
-   * true  = newest → oldest
-   * false = oldest → newest
-   */
+  /* 默认：最新 → 最早 */
   let sortDescending = true;
 
 
-  /*
-   * 判断一篇论文是否属于 IEEE Transactions 系列。
-   *
-   * 包括：
-   * IEEE Transactions on ...
-   * IEEE/ASME Transactions on ...
-   *
-   * 不包括：
-   * IEEE conference papers
-   */
+  /* IEEE Transactions 判断 */
   function isIEEETransactions(item) {
 
-    const html = item.body_html || "";
+    const html =
+      item.body_html || "";
 
     return (
       /IEEE\s+Transactions\s+on/i.test(html) ||
@@ -326,15 +372,14 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
-  /*
-   * HTML → 纯文本
-   * 用于 Search。
-   */
+  /* HTML 转纯文本，用于搜索 */
   function htmlToText(html) {
 
-    const temp = document.createElement("div");
+    const temp =
+      document.createElement("div");
 
-    temp.innerHTML = html || "";
+    temp.innerHTML =
+      html || "";
 
     return (
       temp.textContent ||
@@ -345,21 +390,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
-  /*
-   * 日期转成数字。
-   *
-   * 例如：
-   * 2026-08 → 202608
-   * 2025-03 → 202503
-   */
+  /* 日期值 */
   function getDateValue(item) {
 
-    if (!item.date) {
-      return (parseInt(item.year, 10) || 0) * 100;
-    }
-
     const parts =
-      String(item.date).split("-");
+      String(
+        item.date ||
+        item.year ||
+        ""
+      ).split("-");
 
     const year =
       parseInt(parts[0], 10) || 0;
@@ -367,29 +406,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const month =
       parseInt(parts[1], 10) || 1;
 
-    return year * 100 + month;
+    return (
+      year * 100 +
+      month
+    );
 
   }
 
 
-  /*
-   * 得到完整论文的固定日期排序，
-   * 用于生成论文编号。
-   */
-  const chronologicalPublications =
-    [...publications].sort(function (a, b) {
-
-      return (
-        getDateValue(b) -
-        getDateValue(a)
-      );
-
-    });
-
-
-  /*
-   * 搜索 + 类型筛选 + 日期排序
-   */
+  /* 筛选 */
   function getFilteredPublications() {
 
     const keyword =
@@ -401,31 +426,30 @@ document.addEventListener("DOMContentLoaded", function () {
       typeFilter.value;
 
 
-    let filtered =
+    const filtered =
       publications.filter(function (item) {
 
-        /*
-         * Search
-         */
+        /* 搜索 */
         const text =
-          htmlToText(item.body_html);
+          htmlToText(
+            item.body_html
+          );
 
         const searchMatch =
           keyword === "" ||
           text.includes(keyword);
 
 
-        /*
-         * Type
-         */
+        /* 类型 */
         let typeMatch = true;
 
 
-        if (selectedType === "journal") {
+        if (
+          selectedType === "journal"
+        ) {
 
           typeMatch =
-            String(item.type).toLowerCase()
-            === "journal";
+            item.type === "journal";
 
         }
 
@@ -434,8 +458,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ) {
 
           typeMatch =
-            String(item.type).toLowerCase()
-            === "conference";
+            item.type === "conference";
 
         }
 
@@ -457,9 +480,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
 
-    /*
-     * Date sorting
-     */
+    /* 日期排序 */
     filtered.sort(function (a, b) {
 
       const dateA =
@@ -471,11 +492,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (sortDescending) {
 
-        return dateB - dateA;
+        return (
+          dateB -
+          dateA
+        );
 
       }
 
-      return dateA - dateB;
+      return (
+        dateA -
+        dateB
+      );
 
     });
 
@@ -485,31 +512,30 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
-  /*
-   * 显示论文
-   */
+  /* 渲染 */
   function renderPublications() {
 
     const filtered =
       getFilteredPublications();
 
 
-    publicationList.innerHTML = "";
+    publicationList.innerHTML =
+      "";
 
 
-    /*
-     * 显示结果数量
-     */
     resultCount.textContent =
       filtered.length +
       " publication" +
-      (filtered.length === 1 ? "" : "s");
+      (
+        filtered.length === 1
+          ? ""
+          : "s"
+      );
 
 
-    /*
-     * 没有搜索结果
-     */
-    if (filtered.length === 0) {
+    if (
+      filtered.length === 0
+    ) {
 
       publicationList.innerHTML =
         '<div class="pub-empty">' +
@@ -521,100 +547,95 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    filtered.forEach(function (item) {
+    filtered.forEach(
+      function (item, index) {
 
-      /*
-       * 固定论文编号：
-       * 最新文章编号最大。
-       */
-      const index =
-        chronologicalPublications
-          .indexOf(item);
-
-      const number =
-        chronologicalPublications.length -
-        index;
-
-
-      const row =
-        document.createElement("div");
-
-      row.className =
-        "publication-item";
-
-
-      const numberColumn =
-        document.createElement("div");
-
-      numberColumn.className =
-        "publication-number";
-
-      numberColumn.textContent =
-        "[" + number + "]";
+        /*
+         * 关键修改：
+         *
+         * 根据“当前筛选后的论文数量”
+         * 重新编号。
+         *
+         * 8 篇：
+         * [8]
+         * [7]
+         * ...
+         * [1]
+         */
+        const number =
+          sortDescending
+            ? filtered.length - index
+            : index + 1;
 
 
-      const contentColumn =
-        document.createElement("div");
+        const row =
+          document.createElement(
+            "div"
+          );
 
-      contentColumn.className =
-        "publication-content";
-
-      contentColumn.innerHTML =
-        item.body_html || "";
+        row.className =
+          "publication-item";
 
 
-      row.appendChild(
-        numberColumn
-      );
+        const numberColumn =
+          document.createElement(
+            "div"
+          );
 
-      row.appendChild(
-        contentColumn
-      );
+        numberColumn.className =
+          "publication-number";
 
-      publicationList.appendChild(
-        row
-      );
+        numberColumn.textContent =
+          "[" +
+          number +
+          "]";
 
-    });
+
+        const contentColumn =
+          document.createElement(
+            "div"
+          );
+
+        contentColumn.className =
+          "publication-content";
+
+        contentColumn.innerHTML =
+          item.body_html || "";
+
+
+        row.appendChild(
+          numberColumn
+        );
+
+        row.appendChild(
+          contentColumn
+        );
+
+        publicationList.appendChild(
+          row
+        );
+
+      }
+    );
 
   }
 
 
-  /*
-   * Search
-   */
+  /* 搜索 */
   searchInput.addEventListener(
     "input",
     renderPublications
   );
 
 
-  /*
-   * Type：
-   *
-   * Type
-   * Journal
-   * Conference
-   * IEEE Trans.
-   */
+  /* Type */
   typeFilter.addEventListener(
     "change",
     renderPublications
   );
 
 
-  /*
-   * Date
-   */
-  sortFilter.addEventListener(
-    "change",
-    renderPublications
-  );
-
-
-  /*
-   * 日期升序 / 降序
-   */
+  /* 升序 / 降序 */
   sortDirectionButton.addEventListener(
     "click",
     function () {
@@ -622,15 +643,21 @@ document.addEventListener("DOMContentLoaded", function () {
       sortDescending =
         !sortDescending;
 
+      sortDirectionButton.textContent =
+        sortDescending
+          ? "↓"
+          : "↑";
+
       renderPublications();
 
     }
   );
 
 
-  /*
-   * 初始加载
-   */
+  /* 初始状态 */
+  sortDirectionButton.textContent =
+    "↓";
+
   renderPublications();
 
 });
