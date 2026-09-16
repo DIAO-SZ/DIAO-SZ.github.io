@@ -1,7 +1,59 @@
 # <span data-lang="en">📚 Publications</span><span data-lang="zh" hidden>📚 论文列表</span>
 
 
+<style>
+.publication-controls {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+}
+
+/* 四个框统一高度 */
+.publication-search,
+.publication-controls select,
+.publication-sort {
+  height: 52px !important;
+  min-height: 52px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+}
+
+.publication-search {
+  flex: 1;
+}
+
+.publication-sort {
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 论文编号 */
+.publication-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.publication-list > li {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  column-gap: 12px;
+  margin-bottom: 18px;
+}
+
+.publication-number {
+  white-space: nowrap;
+}
+
+.publication-entry p {
+  margin: 0;
+}
+</style>
+
+
 <div class="publication-controls">
+
   <input
     type="search"
     id="publication-search"
@@ -13,12 +65,26 @@
     data-aria-label-en="Search publications"
     data-aria-label-zh="搜索成果"
   >
-  <select id="publication-type-filter" data-label-en="Type" data-label-zh="类型">
+
+  <select
+    id="publication-type-filter"
+    data-label-en="Type"
+    data-label-zh="类型"
+  >
     <option value="all">Type</option>
+    <option value="journal">Journal</option>
+    <option value="conference">Conference</option>
+    <option value="ieee-trans">IEEE Trans.</option>
   </select>
-  <select id="publication-year-filter" data-label-en="Date" data-label-zh="日期">
+
+  <select
+    id="publication-year-filter"
+    data-label-en="Date"
+    data-label-zh="日期"
+  >
     <option value="all">Date</option>
   </select>
+
   <button
     type="button"
     id="publication-year-sort"
@@ -42,13 +108,26 @@
       />
     </svg>
   </button>
+
 </div>
 
-<ol id="publication-list" class="publication-list"></ol>
+
+<ol
+  id="publication-list"
+  class="publication-list"
+></ol>
+
 
 {% assign publications = site.data.publications %}
-<ul id="publication-source" class="publication-source" hidden>
+
+<ul
+  id="publication-source"
+  class="publication-source"
+  hidden
+>
+
   {% for pub in publications %}
+
   <li
     data-type="{{ pub.type }}"
     data-year="{{ pub.year }}"
@@ -56,19 +135,165 @@
     {% if pub.citation_plain %}data-citation-plain="{{ pub.citation_plain | escape_once }}"{% endif %}
     {% if pub.citation_bibtex %}data-citation-bibtex="{{ pub.citation_bibtex | replace: '\n', '&#10;' | escape_once }}"{% endif %}
   >
+
     {{ pub.body_html | strip }}
+
     {% if pub.scholar_id %}
-    <strong><span class="show_paper_citations" data="{{ pub.scholar_id }}"></span></strong>
+    <strong>
+      <span
+        class="show_paper_citations"
+        data="{{ pub.scholar_id }}"
+      ></span>
+    </strong>
     {% endif %}
+
   </li>
+
   {% endfor %}
+
 </ul>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const search = document.getElementById("publication-search");
+  const type = document.getElementById("publication-type-filter");
+  const year = document.getElementById("publication-year-filter");
+  const sort = document.getElementById("publication-year-sort");
+  const list = document.getElementById("publication-list");
+  const source = document.getElementById("publication-source");
+
+  let newestFirst = true;
+
+  const pubs = Array.from(source.children).map(function (el) {
+    return {
+      type: el.dataset.type || "",
+      year: el.dataset.year || "",
+      date: el.dataset.date || el.dataset.year || "",
+      html: el.innerHTML
+    };
+  });
+
+
+  /* 生成 Date 年份 */
+  [...new Set(pubs.map(p => p.year))]
+    .sort((a, b) => b - a)
+    .forEach(function (y) {
+      const option = document.createElement("option");
+      option.value = y;
+      option.textContent = y;
+      year.appendChild(option);
+    });
+
+
+  function text(html) {
+    const div = document.createElement("div");
+    div.innerHTML = html;
+    return div.textContent || "";
+  }
+
+
+  /* IEEE Transactions，包括 IEEE/ASME Transactions */
+  function isIEEETrans(pub) {
+    return /IEEE(?:\/ASME)? Transactions on/i.test(text(pub.html));
+  }
+
+
+  function dateValue(pub) {
+    return Number(pub.date.replace("-", "")) || Number(pub.year);
+  }
+
+
+  function render() {
+
+    const keyword = search.value.toLowerCase().trim();
+    const selectedType = type.value;
+    const selectedYear = year.value;
+
+    let result = pubs.filter(function (pub) {
+
+      const searchOK =
+        !keyword ||
+        text(pub.html).toLowerCase().includes(keyword);
+
+      let typeOK = true;
+
+      if (selectedType === "journal") {
+        typeOK = pub.type === "journal";
+      }
+
+      if (selectedType === "conference") {
+        typeOK = pub.type === "conference";
+      }
+
+      if (selectedType === "ieee-trans") {
+        typeOK = isIEEETrans(pub);
+      }
+
+      const yearOK =
+        selectedYear === "all" ||
+        pub.year === selectedYear;
+
+      return searchOK && typeOK && yearOK;
+    });
+
+
+    result.sort(function (a, b) {
+      return newestFirst
+        ? dateValue(b) - dateValue(a)
+        : dateValue(a) - dateValue(b);
+    });
+
+
+    list.innerHTML = "";
+
+
+    result.forEach(function (pub, index) {
+
+      const li = document.createElement("li");
+
+      const number = document.createElement("span");
+      number.className = "publication-number";
+
+      number.textContent =
+        "[" +
+        (newestFirst
+          ? result.length - index
+          : index + 1) +
+        "]";
+
+
+      const entry = document.createElement("div");
+      entry.className = "publication-entry";
+      entry.innerHTML = pub.html;
+
+
+      li.appendChild(number);
+      li.appendChild(entry);
+
+      list.appendChild(li);
+    });
+
+  }
+
+
+  search.addEventListener("input", render);
+  type.addEventListener("change", render);
+  year.addEventListener("change", render);
+
+  sort.addEventListener("click", function () {
+    newestFirst = !newestFirst;
+    render();
+  });
+
+
+  render();
+
+});
+</script>
 
 
 {% comment %}
 {% include citation-modal.html %}
 {% endcomment %}
-
-
