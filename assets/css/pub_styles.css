@@ -85,14 +85,3 @@ body, html {
         font-size: 0.9rem;  /* Make text smaller on mobile */
     }
 }
-
-/* Remove the extra icon after DOI links */
-a[href^="https://doi.org/"]::after {
-  content: none !important;
-  display: none !important;
-}
-
-a[href^="https://doi.org/"] {
-  background-image: none !important;
-  padding-right: 0 !important;
-}
