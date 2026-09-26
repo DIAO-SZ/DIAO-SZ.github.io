@@ -1,0 +1,208 @@
+{
+  "name": "Shuzhen Diao",
+  "scholar_id": "AggJ7NwAAAAJ",
+  "citedby": 502,
+  "updated": "2026-09-26T12:37:14.315434+00:00",
+  "publications": {
+    "AggJ7NwAAAAJ:M3ejUd6NZC8C": {
+      "author_pub_id": "AggJ7NwAAAAJ:M3ejUd6NZC8C",
+      "num_citations": 2,
+      "bib": {
+        "title": "Double-Loop Fuzzy Neural Network-Based Fixed-Time Robust Control for Antagonistic PM-Actuated Wrist Robots With Motion Constraints",
+        "author": "Y Xu, S Diao, T Yang, X Zhang, M Li, Y Gao, D Navarro-Alarcon, N Sun",
+        "pub_year": "2025",
+        "venue": "IEEE Transactions on Fuzzy Systems, 2025"
+      }
+    },
+    "AggJ7NwAAAAJ:roLk4NBRz8UC": {
+      "author_pub_id": "AggJ7NwAAAAJ:roLk4NBRz8UC",
+      "num_citations": 3,
+      "bib": {
+        "title": "Output Feedback Control for PAM-Actuated Parallel Robots With Interval Type-2 Fuzzy Neural Networks",
+        "author": "Q Wang, S Diao, G Liu, T Yang, Y Wang, Y Qin, N Sun",
+        "pub_year": "2025",
+        "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems 56 (1), 606-616, 2025"
+      }
+    },
+    "AggJ7NwAAAAJ:MXK_kJrjxJIC": {
+      "author_pub_id": "AggJ7NwAAAAJ:MXK_kJrjxJIC",
+      "num_citations": 4,
+      "bib": {
+        "title": "Modeling and control for PAM-actuated robots: an overview",
+        "author": "X Zhang, S Diao, T Yang, Y Qin, N Sun",
+        "pub_year": "2025",
+        "venue": "Smart Materials and Structures 34 (10), 103001, 2025"
+      }
+    },
+    "AggJ7NwAAAAJ:_kc_bZDykSQC": {
+      "author_pub_id": "AggJ7NwAAAAJ:_kc_bZDykSQC",
+      "num_citations": null,
+      "bib": {
+        "title": "Dynamic Modeling and Control for Antagonistic Pneumatic Artificial Muscle-Driven Manipulators: Analysis and Experimental Verification",
+        "author": "X Zhang, S Diao, T Yang, M Li, S Sun, N Sun",
+        "pub_year": "2025",
+        "venue": "2025 6th International Conference on Internet of Things, Artificial …, 2025"
+      }
+    },
+    "AggJ7NwAAAAJ:ufrVoPGSRksC": {
+      "author_pub_id": "AggJ7NwAAAAJ:ufrVoPGSRksC",
+      "num_citations": 4,
+      "bib": {
+        "title": "Velocity feedback-free synchronous control for pneumatic artificial muscle-actuated parallel robots with fractional-order hysteresis",
+        "author": "S Diao, G Liu, X Zhang, J Zhao, Y Qin, W Sun, N Sun",
+        "pub_year": "2025",
+        "venue": "IEEE Transactions on Industrial Electronics, 2025"
+      }
+    },
+    "AggJ7NwAAAAJ:YOwf2qJgpHMC": {
+      "author_pub_id": "AggJ7NwAAAAJ:YOwf2qJgpHMC",
+      "num_citations": 13,
+      "bib": {
+        "title": "Admittance-Based Output Feedback Fuzzy Switching Control for PAM-Driven Parallel Robots via Nonsingular Terminal Sliding Mode",
+        "author": "X Zhang, G Liu, S Diao, T Yang, Y Fang, N Sun",
+        "pub_year": "2025",
+        "venue": "IEEE Transactions on Automation Science and Engineering, 2025"
+      }
+    },
+    "AggJ7NwAAAAJ:3fE2CSJIrl8C": {
+      "author_pub_id": "AggJ7NwAAAAJ:3fE2CSJIrl8C",
+      "num_citations": 12,
+      "bib": {
+        "title": "LSTM-NN-enhanced tracking control for PAM-driven parallel robot systems with guaranteed performance",
+        "author": "X Zhang, S Diao, T Yang, Y Fang, N Sun",
+        "pub_year": "2025",
+        "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers 72 (7), 3556-3569, 2025"
+      }
+    },
+    "AggJ7NwAAAAJ:KlAtU1dfN6UC": {
+      "author_pub_id": "AggJ7NwAAAAJ:KlAtU1dfN6UC",
+      "num_citations": 5,
+      "bib": {
+        "title": "Practical Finite-Time Compliant Control for Horizontal Pneumatic Artificial Muscle Systems Under Force-Sensorless Reflecting",
+        "author": "G Liu, S Diao, Z Liu, X Zhang, X Xiao, S Men, N Sun",
+        "pub_year": "2024",
+        "venue": "IEEE Transactions on Automation Science and Engineering 22, 9515-9527, 2024"
+      }
+    },
+    "AggJ7NwAAAAJ:Y0pCki6q_DkC": {
+      "author_pub_id": "AggJ7NwAAAAJ:Y0pCki6q_DkC",
+      "num_citations": 9,
+      "bib": {
+        "title": "Finite-time synchronous motion control for pneumatic muscle-actuated parallel robots in Cartesian space",
+        "author": "S Diao, G Liu, T Yang, M Zhang, Y Qin, W Sun, N Sun",
+        "pub_year": "2024",
+        "venue": "IEEE/ASME Transactions on Mechatronics 30 (3), 2389-2400, 2024"
+      }
+    },
+    "AggJ7NwAAAAJ:8k81kl-MbHgC": {
+      "author_pub_id": "AggJ7NwAAAAJ:8k81kl-MbHgC",
+      "num_citations": 7,
+      "bib": {
+        "title": "Supervised learning control for compliant pneumatic artificial muscle robots with preassigned-time performance",
+        "author": "G Liu, S Diao, T Yang, X Zhang, Y Fang, N Sun",
+        "pub_year": "2024",
+        "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems 54 (9), 5352-5364, 2024"
+      }
+    },
+    "AggJ7NwAAAAJ:4TOpqqG69KYC": {
+      "author_pub_id": "AggJ7NwAAAAJ:4TOpqqG69KYC",
+      "num_citations": null,
+      "bib": {
+        "title": "Force Control of Polishing Robots Considering Sensor Measurement Sensitivity and Hysteresis Characteristics",
+        "author": "C He, Q Wu, S Diao, N Sun",
+        "pub_year": "2024",
+        "venue": "2024 36th Chinese Control and Decision Conference (CCDC), 3833-3840, 2024"
+      }
+    },
+    "AggJ7NwAAAAJ:kNdYIx-mwKoC": {
+      "author_pub_id": "AggJ7NwAAAAJ:kNdYIx-mwKoC",
+      "num_citations": 26,
+      "bib": {
+        "title": "Adaptive fuzzy control for underactuated robot systems with inaccurate actuated states and unavailable unactuated states",
+        "author": "M Zhai, S Diao, T Yang, Q Wu, Y Fang, N Sun",
+        "pub_year": "2024",
+        "venue": "IEEE Transactions on Automation Science and Engineering 22, 1566-1578, 2024"
+      }
+    },
+    "AggJ7NwAAAAJ:Tyk-4Ss8FVUC": {
+      "author_pub_id": "AggJ7NwAAAAJ:Tyk-4Ss8FVUC",
+      "num_citations": 20,
+      "bib": {
+        "title": "Prescribed-time adaptive fuzzy control for pneumatic artificial muscle-actuated parallel robots with input constraints",
+        "author": "S Diao, G Liu, Z Liu, L Zhou, W Sun, Y Wang, N Sun",
+        "pub_year": "2023",
+        "venue": "IEEE Transactions on Fuzzy Systems 32 (4), 2039-2051, 2023"
+      }
+    },
+    "AggJ7NwAAAAJ:ULOm3_A8WrAC": {
+      "author_pub_id": "AggJ7NwAAAAJ:ULOm3_A8WrAC",
+      "num_citations": 2,
+      "bib": {
+        "title": "Adaptive prediction control for parallel robots actuated by pneumatic artificial muscles with motion constraints and input saturation",
+        "author": "T Yang, Q Wang, S Diao, Y Fang, N Sun",
+        "pub_year": "2023",
+        "venue": "2023 IEEE International Conference on Real-time Computing and Robotics (RCAR …, 2023"
+      }
+    },
+    "AggJ7NwAAAAJ:UeHWp8X0CEIC": {
+      "author_pub_id": "AggJ7NwAAAAJ:UeHWp8X0CEIC",
+      "num_citations": 42,
+      "bib": {
+        "title": "Novel adaptive control for flexible-joint robots with unknown measurement sensitivity",
+        "author": "S Diao, W Sun, SF Su, X Zhao, N Xu",
+        "pub_year": "2023",
+        "venue": "IEEE Transactions on Automation Science and Engineering 21 (2), 1445-1456, 2023"
+      }
+    },
+    "AggJ7NwAAAAJ:eQOLeE2rZwMC": {
+      "author_pub_id": "AggJ7NwAAAAJ:eQOLeE2rZwMC",
+      "num_citations": 3,
+      "bib": {
+        "title": "Adaptive asymptotic tracking control for multi-input and multi-output nonlinear systems with unknown hysteresis inputs",
+        "author": "S Diao, W Sun, SF Su, J Xia",
+        "pub_year": "2022",
+        "venue": "Information Sciences 612, 241-256, 2022"
+      }
+    },
+    "AggJ7NwAAAAJ:hqOjcs7Dif8C": {
+      "author_pub_id": "AggJ7NwAAAAJ:hqOjcs7Dif8C",
+      "num_citations": 32,
+      "bib": {
+        "title": "Neural‐based adaptive event‐triggered tracking control for flexible‐joint robots with random noises",
+        "author": "S Diao, W Sun, SF Su",
+        "pub_year": "2022",
+        "venue": "International Journal of Robust and Nonlinear Control 32 (5), 2722-2740, 2022"
+      }
+    },
+    "AggJ7NwAAAAJ:0EnyYjriUFMC": {
+      "author_pub_id": "AggJ7NwAAAAJ:0EnyYjriUFMC",
+      "num_citations": 23,
+      "bib": {
+        "title": "Finite-Time Adaptive Fuzzy Control for Nonlinear Systems with Unknown Backlash-Like Hysteresis: S. Diao et al.",
+        "author": "S Diao, W Sun, L Wang, J Wu",
+        "pub_year": "2021",
+        "venue": "International Journal of Fuzzy Systems 23 (7), 2037-2047, 2021"
+      }
+    },
+    "AggJ7NwAAAAJ:d1gkVwhDpl0C": {
+      "author_pub_id": "AggJ7NwAAAAJ:d1gkVwhDpl0C",
+      "num_citations": 36,
+      "bib": {
+        "title": "Adaptive fuzzy tracking for flexible-joint robots with random noises via command filter control",
+        "author": "W Sun, S Diao, SF Su, Y Wu",
+        "pub_year": "2021",
+        "venue": "Information Sciences 575, 116-132, 2021"
+      }
+    },
+    "AggJ7NwAAAAJ:UebtZRa9Y70C": {
+      "author_pub_id": "AggJ7NwAAAAJ:UebtZRa9Y70C",
+      "num_citations": 140,
+      "bib": {
+        "title": "Fixed-time adaptive neural network control for nonlinear systems with input saturation",
+        "author": "W Sun, S Diao, SF Su, ZY Sun",
+        "pub_year": "2021",
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems 34 (4), 1911-1920, 2021"
+      }
+    }
+  }
+}
