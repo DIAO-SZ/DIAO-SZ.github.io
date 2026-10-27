@@ -41,7 +41,10 @@
 
       </div>
 
-      <div class="cv-date">09/2026–Now</div>
+      <div class="cv-date">
+        <span data-lang="en">09/2026–now</span>
+        <span data-lang="zh" hidden>2026年9月–现在</span>
+      </div>
 
     </div>
   </li>

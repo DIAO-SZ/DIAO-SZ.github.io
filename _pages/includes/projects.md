@@ -12,7 +12,7 @@
 
       <strong>Source:</strong>
       National Natural Science Foundation of China (NSFC) Youth Student Basic Research Project (for Ph.D. Students);
-      05/01/2024 – 12/31/2025; CNY 300,000;
+      05/2024 – 12/2025; CNY 300,000;
       <strong><span style="color:#224B8D">Principal Investigator</span></strong>.
     </div>
 
@@ -26,7 +26,7 @@
 
       <strong>来源：</strong>
       国家自然科学基金青年学生基础研究项目(博士研究生)；
-       05/01/2024 – 12/31/2025；人民币30万元；
+       2024年5月–2025年12月；人民币30万元；
       <strong><span style="color:#224B8D">项目负责人</span></strong>。
     </div>
   </li>
