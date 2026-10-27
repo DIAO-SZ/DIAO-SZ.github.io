@@ -1,3 +1,4 @@
+
 # <span data-lang="en">🎓 Education</span><span data-lang="zh" hidden>🎓 教育背景</span>
 
 <ul class="cv-list">
@@ -26,7 +27,7 @@
 
         <div class="cv-main" data-lang="zh" hidden>
           <span class="cv-degree">电子信息博士</span>（人工智能），
-         人工智能学院， 南开大学，中国天津
+          人工智能学院，南开大学，中国天津
         </div>
 
         <div class="cv-sub" data-lang="zh" hidden>
@@ -39,7 +40,10 @@
 
       </div>
 
-      <div class="cv-date">09/2022–06/2026</div>
+      <div class="cv-date">
+        <span data-lang="en">09/2022–06/2026</span>
+        <span data-lang="zh" hidden>2022年9月–2026年6月</span>
+      </div>
 
     </div>
   </li>
@@ -69,7 +73,7 @@
 
         <div class="cv-main" data-lang="zh" hidden>
           <span class="cv-degree">理学硕士</span>（系统科学），
-        数学科学学院，  聊城大学，中国聊城
+          数学科学学院，聊城大学，中国聊城
         </div>
 
         <div class="cv-sub" data-lang="zh" hidden>
@@ -82,7 +86,10 @@
 
       </div>
 
-      <div class="cv-date">09/2019–06/2022</div>
+      <div class="cv-date">
+        <span data-lang="en">09/2019–06/2022</span>
+        <span data-lang="zh" hidden>2019年9月–2022年6月</span>
+      </div>
 
     </div>
   </li>
@@ -109,7 +116,10 @@
 
       </div>
 
-      <div class="cv-date">09/2015–06/2019</div>
+      <div class="cv-date">
+        <span data-lang="en">09/2015–06/2019</span>
+        <span data-lang="zh" hidden>2015年9月–2019年6月</span>
+      </div>
 
     </div>
   </li>
